@@ -1,0 +1,9321 @@
+[
+  {
+    "id": "bash",
+    "name": "Bash",
+    "aliases": [
+      "bash",
+      "sh",
+      "ksh",
+      "zsh",
+      "shell",
+      "openrc"
+    ],
+    "filenames": [
+      "*.sh",
+      "*.ksh",
+      "*.bash",
+      "*.ebuild",
+      "*.eclass",
+      "*.exheres-0",
+      "*.exlib",
+      "*.zsh",
+      ".bashrc",
+      "bashrc",
+      ".bash_*",
+      "bash_*",
+      "zshrc",
+      ".zshrc",
+      ".kshrc",
+      "kshrc",
+      "PKGBUILD"
+    ],
+    "mimetypes": [
+      "application/x-sh",
+      "application/x-shellscript",
+      "text/x-shellscript"
+    ],
+    "category": "DevOps / Shell",
+    "is_popular": true
+  },
+  {
+    "id": "c",
+    "name": "C",
+    "aliases": [
+      "c"
+    ],
+    "filenames": [
+      "*.c",
+      "*.h",
+      "*.idc",
+      "*.x[bp]m"
+    ],
+    "mimetypes": [
+      "text/x-chdr",
+      "text/x-csrc",
+      "image/x-xbitmap",
+      "image/x-xpixmap"
+    ],
+    "category": "Systems",
+    "is_popular": true
+  },
+  {
+    "id": "csharp",
+    "name": "C#",
+    "aliases": [
+      "csharp",
+      "c#",
+      "cs"
+    ],
+    "filenames": [
+      "*.cs"
+    ],
+    "mimetypes": [
+      "text/x-csharp"
+    ],
+    "category": "Enterprise / Backend",
+    "is_popular": true
+  },
+  {
+    "id": "cpp",
+    "name": "C++",
+    "aliases": [
+      "cpp",
+      "c++"
+    ],
+    "filenames": [
+      "*.cpp",
+      "*.hpp",
+      "*.c++",
+      "*.h++",
+      "*.cc",
+      "*.hh",
+      "*.cxx",
+      "*.hxx",
+      "*.C",
+      "*.H",
+      "*.cp",
+      "*.CPP",
+      "*.tpp",
+      "*.cppm",
+      "*.ixx",
+      "*.mxx",
+      "*.ipp"
+    ],
+    "mimetypes": [
+      "text/x-c++hdr",
+      "text/x-c++src"
+    ],
+    "category": "Systems / Performance",
+    "is_popular": true
+  },
+  {
+    "id": "css",
+    "name": "CSS",
+    "aliases": [
+      "css"
+    ],
+    "filenames": [
+      "*.css"
+    ],
+    "mimetypes": [
+      "text/css"
+    ],
+    "category": "Web / Styling",
+    "is_popular": true
+  },
+  {
+    "id": "diff",
+    "name": "Diff",
+    "aliases": [
+      "diff",
+      "udiff"
+    ],
+    "filenames": [
+      "*.diff",
+      "*.patch"
+    ],
+    "mimetypes": [
+      "text/x-diff",
+      "text/x-patch"
+    ],
+    "category": "Version Control",
+    "is_popular": true
+  },
+  {
+    "id": "docker",
+    "name": "Docker",
+    "aliases": [
+      "docker",
+      "dockerfile"
+    ],
+    "filenames": [
+      "Dockerfile",
+      "*.docker"
+    ],
+    "mimetypes": [
+      "text/x-dockerfile-config"
+    ],
+    "category": "Containers / Cloud",
+    "is_popular": true
+  },
+  {
+    "id": "elixir",
+    "name": "Elixir",
+    "aliases": [
+      "elixir",
+      "ex",
+      "exs"
+    ],
+    "filenames": [
+      "*.ex",
+      "*.eex",
+      "*.exs",
+      "*.leex"
+    ],
+    "mimetypes": [
+      "text/x-elixir"
+    ],
+    "category": "Distributed / Web",
+    "is_popular": true
+  },
+  {
+    "id": "erlang",
+    "name": "Erlang",
+    "aliases": [
+      "erlang"
+    ],
+    "filenames": [
+      "*.erl",
+      "*.hrl",
+      "*.es",
+      "*.escript"
+    ],
+    "mimetypes": [
+      "text/x-erlang"
+    ],
+    "category": "Distributed / Telecom",
+    "is_popular": true
+  },
+  {
+    "id": "go",
+    "name": "Go",
+    "aliases": [
+      "go",
+      "golang"
+    ],
+    "filenames": [
+      "*.go"
+    ],
+    "mimetypes": [
+      "text/x-gosrc"
+    ],
+    "category": "Systems / Backend",
+    "is_popular": true
+  },
+  {
+    "id": "graphql",
+    "name": "GraphQL",
+    "aliases": [
+      "graphql"
+    ],
+    "filenames": [
+      "*.graphql"
+    ],
+    "mimetypes": [],
+    "category": "API / Query",
+    "is_popular": true
+  },
+  {
+    "id": "haskell",
+    "name": "Haskell",
+    "aliases": [
+      "haskell",
+      "hs"
+    ],
+    "filenames": [
+      "*.hs"
+    ],
+    "mimetypes": [
+      "text/x-haskell"
+    ],
+    "category": "Functional",
+    "is_popular": true
+  },
+  {
+    "id": "html",
+    "name": "HTML",
+    "aliases": [
+      "html"
+    ],
+    "filenames": [
+      "*.html",
+      "*.htm",
+      "*.xhtml",
+      "*.xslt"
+    ],
+    "mimetypes": [
+      "text/html",
+      "application/xhtml+xml"
+    ],
+    "category": "Web / Markup",
+    "is_popular": true
+  },
+  {
+    "id": "java",
+    "name": "Java",
+    "aliases": [
+      "java"
+    ],
+    "filenames": [
+      "*.java"
+    ],
+    "mimetypes": [
+      "text/x-java"
+    ],
+    "category": "Enterprise / JVM",
+    "is_popular": true
+  },
+  {
+    "id": "javascript",
+    "name": "JavaScript",
+    "aliases": [
+      "javascript",
+      "js"
+    ],
+    "filenames": [
+      "*.js",
+      "*.jsm",
+      "*.mjs",
+      "*.cjs"
+    ],
+    "mimetypes": [
+      "application/javascript",
+      "application/x-javascript",
+      "text/x-javascript",
+      "text/javascript"
+    ],
+    "category": "Frontend / Fullstack",
+    "is_popular": true
+  },
+  {
+    "id": "json",
+    "name": "JSON",
+    "aliases": [
+      "json",
+      "json-object"
+    ],
+    "filenames": [
+      "*.json",
+      "*.jsonl",
+      "*.ndjson",
+      "Pipfile.lock",
+      "*.module",
+      "*.xc"
+    ],
+    "mimetypes": [
+      "application/json",
+      "application/json-object",
+      "application/x-ndjson",
+      "application/jsonl",
+      "application/json-seq"
+    ],
+    "category": "Data Interchange",
+    "is_popular": true
+  },
+  {
+    "id": "julia",
+    "name": "Julia",
+    "aliases": [
+      "julia",
+      "jl"
+    ],
+    "filenames": [
+      "*.jl"
+    ],
+    "mimetypes": [
+      "text/x-julia",
+      "application/x-julia"
+    ],
+    "category": "Scientific Computing",
+    "is_popular": true
+  },
+  {
+    "id": "kotlin",
+    "name": "Kotlin",
+    "aliases": [
+      "kotlin"
+    ],
+    "filenames": [
+      "*.kt",
+      "*.kts"
+    ],
+    "mimetypes": [
+      "text/x-kotlin"
+    ],
+    "category": "Mobile / JVM",
+    "is_popular": true
+  },
+  {
+    "id": "lua",
+    "name": "Lua",
+    "aliases": [
+      "lua"
+    ],
+    "filenames": [
+      "*.lua",
+      "*.wlua"
+    ],
+    "mimetypes": [
+      "text/x-lua",
+      "application/x-lua"
+    ],
+    "category": "Embedded / Scripting",
+    "is_popular": true
+  },
+  {
+    "id": "markdown",
+    "name": "Markdown",
+    "aliases": [
+      "markdown",
+      "md"
+    ],
+    "filenames": [
+      "*.md",
+      "*.markdown"
+    ],
+    "mimetypes": [
+      "text/x-markdown"
+    ],
+    "category": "Documentation / Text",
+    "is_popular": true
+  },
+  {
+    "id": "nixos",
+    "name": "Nix",
+    "aliases": [
+      "nixos",
+      "nix"
+    ],
+    "filenames": [
+      "*.nix"
+    ],
+    "mimetypes": [
+      "text/x-nix"
+    ],
+    "category": "Package / DevOps",
+    "is_popular": true
+  },
+  {
+    "id": "php",
+    "name": "PHP",
+    "aliases": [
+      "php",
+      "php3",
+      "php4",
+      "php5"
+    ],
+    "filenames": [
+      "*.php",
+      "*.php[345]",
+      "*.inc"
+    ],
+    "mimetypes": [
+      "text/x-php"
+    ],
+    "category": "Backend / Web",
+    "is_popular": true
+  },
+  {
+    "id": "powershell",
+    "name": "PowerShell",
+    "aliases": [
+      "powershell",
+      "pwsh",
+      "posh",
+      "ps1",
+      "psm1"
+    ],
+    "filenames": [
+      "*.ps1",
+      "*.psm1"
+    ],
+    "mimetypes": [
+      "text/x-powershell"
+    ],
+    "category": "Windows / Automation",
+    "is_popular": true
+  },
+  {
+    "id": "promql",
+    "name": "PromQL",
+    "aliases": [
+      "promql"
+    ],
+    "filenames": [
+      "*.promql"
+    ],
+    "mimetypes": [],
+    "category": "Monitoring / Observability",
+    "is_popular": true
+  },
+  {
+    "id": "protobuf",
+    "name": "Protocol Buffer",
+    "aliases": [
+      "protobuf",
+      "proto"
+    ],
+    "filenames": [
+      "*.proto"
+    ],
+    "mimetypes": [],
+    "category": "RPC / Serialization",
+    "is_popular": true
+  },
+  {
+    "id": "python",
+    "name": "Python",
+    "aliases": [
+      "python",
+      "py",
+      "sage",
+      "python3",
+      "py3",
+      "bazel",
+      "starlark",
+      "pyi"
+    ],
+    "filenames": [
+      "*.py",
+      "*.pyw",
+      "*.pyi",
+      "*.jy",
+      "*.sage",
+      "*.sc",
+      "SConstruct",
+      "SConscript",
+      "*.bzl",
+      "BUCK",
+      "BUILD",
+      "BUILD.bazel",
+      "WORKSPACE",
+      "*.tac",
+      "*.pye"
+    ],
+    "mimetypes": [
+      "text/x-python",
+      "application/x-python",
+      "text/x-python3",
+      "application/x-python3"
+    ],
+    "category": "Backend / Data",
+    "is_popular": true
+  },
+  {
+    "id": "ruby",
+    "name": "Ruby",
+    "aliases": [
+      "ruby",
+      "rb",
+      "duby"
+    ],
+    "filenames": [
+      "*.rb",
+      "*.rbw",
+      "Rakefile",
+      "*.rake",
+      "*.gemspec",
+      "*.rbx",
+      "*.duby",
+      "Gemfile",
+      "Vagrantfile"
+    ],
+    "mimetypes": [
+      "text/x-ruby",
+      "application/x-ruby"
+    ],
+    "category": "Backend / Web",
+    "is_popular": true
+  },
+  {
+    "id": "rust",
+    "name": "Rust",
+    "aliases": [
+      "rust",
+      "rs"
+    ],
+    "filenames": [
+      "*.rs",
+      "*.rs.in"
+    ],
+    "mimetypes": [
+      "text/rust",
+      "text/x-rust"
+    ],
+    "category": "Systems / WebAssembly",
+    "is_popular": true
+  },
+  {
+    "id": "splus",
+    "name": "S",
+    "aliases": [
+      "splus",
+      "s",
+      "r"
+    ],
+    "filenames": [
+      "*.S",
+      "*.R",
+      ".Rhistory",
+      ".Rprofile",
+      ".Renviron"
+    ],
+    "mimetypes": [
+      "text/S-plus",
+      "text/S",
+      "text/x-r-source",
+      "text/x-r",
+      "text/x-R",
+      "text/x-r-history",
+      "text/x-r-profile"
+    ],
+    "category": "Data / Statistics",
+    "is_popular": true
+  },
+  {
+    "id": "scala",
+    "name": "Scala",
+    "aliases": [
+      "scala"
+    ],
+    "filenames": [
+      "*.scala"
+    ],
+    "mimetypes": [
+      "text/x-scala"
+    ],
+    "category": "Data / JVM",
+    "is_popular": true
+  },
+  {
+    "id": "solidity",
+    "name": "Solidity",
+    "aliases": [
+      "solidity"
+    ],
+    "filenames": [
+      "*.sol"
+    ],
+    "mimetypes": [],
+    "category": "Smart Contracts / Web3",
+    "is_popular": true
+  },
+  {
+    "id": "sql",
+    "name": "SQL",
+    "aliases": [
+      "sql"
+    ],
+    "filenames": [
+      "*.sql"
+    ],
+    "mimetypes": [
+      "text/x-sql"
+    ],
+    "category": "Database / Analytics",
+    "is_popular": true
+  },
+  {
+    "id": "swift",
+    "name": "Swift",
+    "aliases": [
+      "swift"
+    ],
+    "filenames": [
+      "*.swift"
+    ],
+    "mimetypes": [
+      "text/x-swift"
+    ],
+    "category": "Apple / Mobile",
+    "is_popular": true
+  },
+  {
+    "id": "terraform",
+    "name": "Terraform",
+    "aliases": [
+      "terraform",
+      "tf",
+      "hcl"
+    ],
+    "filenames": [
+      "*.tf",
+      "*.hcl"
+    ],
+    "mimetypes": [
+      "application/x-tf",
+      "application/x-terraform"
+    ],
+    "category": "Infrastructure as Code",
+    "is_popular": true
+  },
+  {
+    "id": "text",
+    "name": "Text only",
+    "aliases": [
+      "text"
+    ],
+    "filenames": [
+      "*.txt"
+    ],
+    "mimetypes": [
+      "text/plain"
+    ],
+    "category": "Plain Text",
+    "is_popular": true
+  },
+  {
+    "id": "toml",
+    "name": "TOML",
+    "aliases": [
+      "toml"
+    ],
+    "filenames": [
+      "*.toml",
+      "Pipfile",
+      "poetry.lock"
+    ],
+    "mimetypes": [
+      "application/toml"
+    ],
+    "category": "Configuration",
+    "is_popular": true
+  },
+  {
+    "id": "typescript",
+    "name": "TypeScript",
+    "aliases": [
+      "typescript",
+      "ts"
+    ],
+    "filenames": [
+      "*.ts"
+    ],
+    "mimetypes": [
+      "application/x-typescript",
+      "text/x-typescript"
+    ],
+    "category": "Frontend / Fullstack",
+    "is_popular": true
+  },
+  {
+    "id": "wast",
+    "name": "WebAssembly",
+    "aliases": [
+      "wast",
+      "wat"
+    ],
+    "filenames": [
+      "*.wat",
+      "*.wast"
+    ],
+    "mimetypes": [],
+    "category": "WebAssembly",
+    "is_popular": true
+  },
+  {
+    "id": "yaml",
+    "name": "YAML",
+    "aliases": [
+      "yaml",
+      "yml"
+    ],
+    "filenames": [
+      "*.yaml",
+      "*.yml"
+    ],
+    "mimetypes": [
+      "text/x-yaml"
+    ],
+    "category": "Configuration / DevOps",
+    "is_popular": true
+  },
+  {
+    "id": "zig",
+    "name": "Zig",
+    "aliases": [
+      "zig"
+    ],
+    "filenames": [
+      "*.zig"
+    ],
+    "mimetypes": [
+      "text/zig"
+    ],
+    "category": "Systems",
+    "is_popular": true
+  },
+  {
+    "id": "abap",
+    "name": "ABAP",
+    "aliases": [
+      "abap"
+    ],
+    "filenames": [
+      "*.abap",
+      "*.ABAP"
+    ],
+    "mimetypes": [
+      "text/x-abap"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "abnf",
+    "name": "ABNF",
+    "aliases": [
+      "abnf"
+    ],
+    "filenames": [
+      "*.abnf"
+    ],
+    "mimetypes": [
+      "text/x-abnf"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "actionscript",
+    "name": "ActionScript",
+    "aliases": [
+      "actionscript",
+      "as"
+    ],
+    "filenames": [
+      "*.as"
+    ],
+    "mimetypes": [
+      "application/x-actionscript",
+      "text/x-actionscript",
+      "text/actionscript"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "actionscript3",
+    "name": "ActionScript 3",
+    "aliases": [
+      "actionscript3",
+      "as3"
+    ],
+    "filenames": [
+      "*.as"
+    ],
+    "mimetypes": [
+      "application/x-actionscript3",
+      "text/x-actionscript3",
+      "text/actionscript3"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ada",
+    "name": "Ada",
+    "aliases": [
+      "ada",
+      "ada95",
+      "ada2005"
+    ],
+    "filenames": [
+      "*.adb",
+      "*.ads",
+      "*.ada"
+    ],
+    "mimetypes": [
+      "text/x-ada"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "adl",
+    "name": "ADL",
+    "aliases": [
+      "adl"
+    ],
+    "filenames": [
+      "*.adl",
+      "*.adls",
+      "*.adlf",
+      "*.adlx"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "agda",
+    "name": "Agda",
+    "aliases": [
+      "agda"
+    ],
+    "filenames": [
+      "*.agda"
+    ],
+    "mimetypes": [
+      "text/x-agda"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "aheui",
+    "name": "Aheui",
+    "aliases": [
+      "aheui"
+    ],
+    "filenames": [
+      "*.aheui"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "alloy",
+    "name": "Alloy",
+    "aliases": [
+      "alloy"
+    ],
+    "filenames": [
+      "*.als"
+    ],
+    "mimetypes": [
+      "text/x-alloy"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ambienttalk",
+    "name": "AmbientTalk",
+    "aliases": [
+      "ambienttalk",
+      "ambienttalk/2",
+      "at"
+    ],
+    "filenames": [
+      "*.at"
+    ],
+    "mimetypes": [
+      "text/x-ambienttalk"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "amdgpu",
+    "name": "AMDGPU",
+    "aliases": [
+      "amdgpu"
+    ],
+    "filenames": [
+      "*.isa"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ampl",
+    "name": "Ampl",
+    "aliases": [
+      "ampl"
+    ],
+    "filenames": [
+      "*.run"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ng2",
+    "name": "Angular2",
+    "aliases": [
+      "ng2"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ansys",
+    "name": "ANSYS parametric design language",
+    "aliases": [
+      "ansys",
+      "apdl"
+    ],
+    "filenames": [
+      "*.ans"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "antlr",
+    "name": "ANTLR",
+    "aliases": [
+      "antlr"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "antlr-actionscript",
+    "name": "ANTLR With ActionScript Target",
+    "aliases": [
+      "antlr-actionscript",
+      "antlr-as"
+    ],
+    "filenames": [
+      "*.G",
+      "*.g"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "antlr-csharp",
+    "name": "ANTLR With C# Target",
+    "aliases": [
+      "antlr-csharp",
+      "antlr-c#"
+    ],
+    "filenames": [
+      "*.G",
+      "*.g"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "antlr-cpp",
+    "name": "ANTLR With CPP Target",
+    "aliases": [
+      "antlr-cpp"
+    ],
+    "filenames": [
+      "*.G",
+      "*.g"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "antlr-java",
+    "name": "ANTLR With Java Target",
+    "aliases": [
+      "antlr-java"
+    ],
+    "filenames": [
+      "*.G",
+      "*.g"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "antlr-objc",
+    "name": "ANTLR With ObjectiveC Target",
+    "aliases": [
+      "antlr-objc"
+    ],
+    "filenames": [
+      "*.G",
+      "*.g"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "antlr-perl",
+    "name": "ANTLR With Perl Target",
+    "aliases": [
+      "antlr-perl"
+    ],
+    "filenames": [
+      "*.G",
+      "*.g"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "antlr-python",
+    "name": "ANTLR With Python Target",
+    "aliases": [
+      "antlr-python"
+    ],
+    "filenames": [
+      "*.G",
+      "*.g"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "antlr-ruby",
+    "name": "ANTLR With Ruby Target",
+    "aliases": [
+      "antlr-ruby",
+      "antlr-rb"
+    ],
+    "filenames": [
+      "*.G",
+      "*.g"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "apacheconf",
+    "name": "ApacheConf",
+    "aliases": [
+      "apacheconf",
+      "aconf",
+      "apache"
+    ],
+    "filenames": [
+      ".htaccess",
+      "apache.conf",
+      "apache2.conf"
+    ],
+    "mimetypes": [
+      "text/x-apacheconf"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "apl",
+    "name": "APL",
+    "aliases": [
+      "apl"
+    ],
+    "filenames": [
+      "*.apl",
+      "*.aplf",
+      "*.aplo",
+      "*.apln",
+      "*.aplc",
+      "*.apli",
+      "*.dyalog"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "applescript",
+    "name": "AppleScript",
+    "aliases": [
+      "applescript"
+    ],
+    "filenames": [
+      "*.applescript"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "arduino",
+    "name": "Arduino",
+    "aliases": [
+      "arduino"
+    ],
+    "filenames": [
+      "*.ino"
+    ],
+    "mimetypes": [
+      "text/x-arduino"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "arrow",
+    "name": "Arrow",
+    "aliases": [
+      "arrow"
+    ],
+    "filenames": [
+      "*.arw"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "arturo",
+    "name": "Arturo",
+    "aliases": [
+      "arturo",
+      "art"
+    ],
+    "filenames": [
+      "*.art"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "asc",
+    "name": "ASCII armored",
+    "aliases": [
+      "asc",
+      "pem"
+    ],
+    "filenames": [
+      "*.asc",
+      "*.pem",
+      "id_dsa",
+      "id_ecdsa",
+      "id_ecdsa_sk",
+      "id_ed25519",
+      "id_ed25519_sk",
+      "id_rsa"
+    ],
+    "mimetypes": [
+      "application/pgp-keys",
+      "application/pgp-encrypted",
+      "application/pgp-signature",
+      "application/pem-certificate-chain"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "asn1",
+    "name": "ASN.1",
+    "aliases": [
+      "asn1"
+    ],
+    "filenames": [
+      "*.asn1"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "aspectj",
+    "name": "AspectJ",
+    "aliases": [
+      "aspectj"
+    ],
+    "filenames": [
+      "*.aj"
+    ],
+    "mimetypes": [
+      "text/x-aspectj"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "aspx-cs",
+    "name": "aspx-cs",
+    "aliases": [
+      "aspx-cs"
+    ],
+    "filenames": [
+      "*.aspx",
+      "*.asax",
+      "*.ascx",
+      "*.ashx",
+      "*.asmx",
+      "*.axd"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "aspx-vb",
+    "name": "aspx-vb",
+    "aliases": [
+      "aspx-vb"
+    ],
+    "filenames": [
+      "*.aspx",
+      "*.asax",
+      "*.ascx",
+      "*.ashx",
+      "*.asmx",
+      "*.axd"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "asymptote",
+    "name": "Asymptote",
+    "aliases": [
+      "asymptote",
+      "asy"
+    ],
+    "filenames": [
+      "*.asy"
+    ],
+    "mimetypes": [
+      "text/x-asymptote"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "augeas",
+    "name": "Augeas",
+    "aliases": [
+      "augeas"
+    ],
+    "filenames": [
+      "*.aug"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "autohotkey",
+    "name": "autohotkey",
+    "aliases": [
+      "autohotkey",
+      "ahk"
+    ],
+    "filenames": [
+      "*.ahk",
+      "*.ahkl"
+    ],
+    "mimetypes": [
+      "text/x-autohotkey"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "autoit",
+    "name": "AutoIt",
+    "aliases": [
+      "autoit"
+    ],
+    "filenames": [
+      "*.au3"
+    ],
+    "mimetypes": [
+      "text/x-autoit"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "awk",
+    "name": "Awk",
+    "aliases": [
+      "awk",
+      "gawk",
+      "mawk",
+      "nawk"
+    ],
+    "filenames": [
+      "*.awk"
+    ],
+    "mimetypes": [
+      "application/x-awk"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "bare",
+    "name": "BARE",
+    "aliases": [
+      "bare"
+    ],
+    "filenames": [
+      "*.bare"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "basemake",
+    "name": "Base Makefile",
+    "aliases": [
+      "basemake"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "console",
+    "name": "Bash Session",
+    "aliases": [
+      "console",
+      "shell-session"
+    ],
+    "filenames": [
+      "*.sh-session",
+      "*.shell-session"
+    ],
+    "mimetypes": [
+      "application/x-shell-session",
+      "application/x-sh-session"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "batch",
+    "name": "Batchfile",
+    "aliases": [
+      "batch",
+      "bat",
+      "dosbatch",
+      "winbatch"
+    ],
+    "filenames": [
+      "*.bat",
+      "*.cmd"
+    ],
+    "mimetypes": [
+      "application/x-dos-batch"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "bbcbasic",
+    "name": "BBC Basic",
+    "aliases": [
+      "bbcbasic"
+    ],
+    "filenames": [
+      "*.bbc"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "bbcode",
+    "name": "BBCode",
+    "aliases": [
+      "bbcode"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/x-bbcode"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "bc",
+    "name": "BC",
+    "aliases": [
+      "bc"
+    ],
+    "filenames": [
+      "*.bc"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "bdd",
+    "name": "Bdd",
+    "aliases": [
+      "bdd"
+    ],
+    "filenames": [
+      "*.feature"
+    ],
+    "mimetypes": [
+      "text/x-bdd"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "befunge",
+    "name": "Befunge",
+    "aliases": [
+      "befunge"
+    ],
+    "filenames": [
+      "*.befunge"
+    ],
+    "mimetypes": [
+      "application/x-befunge"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "berry",
+    "name": "Berry",
+    "aliases": [
+      "berry",
+      "be"
+    ],
+    "filenames": [
+      "*.be"
+    ],
+    "mimetypes": [
+      "text/x-berry",
+      "application/x-berry"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "bibtex",
+    "name": "BibTeX",
+    "aliases": [
+      "bibtex",
+      "bib"
+    ],
+    "filenames": [
+      "*.bib"
+    ],
+    "mimetypes": [
+      "text/x-bibtex"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "bitbake",
+    "name": "BitBake",
+    "aliases": [
+      "bitbake"
+    ],
+    "filenames": [
+      "*.bbclass",
+      "*.bbappend"
+    ],
+    "mimetypes": [
+      "text/x-bitbake"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "blitzbasic",
+    "name": "BlitzBasic",
+    "aliases": [
+      "blitzbasic",
+      "b3d",
+      "bplus"
+    ],
+    "filenames": [
+      "*.bb",
+      "*.decls"
+    ],
+    "mimetypes": [
+      "text/x-bb"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "blitzmax",
+    "name": "BlitzMax",
+    "aliases": [
+      "blitzmax",
+      "bmax"
+    ],
+    "filenames": [
+      "*.bmx"
+    ],
+    "mimetypes": [
+      "text/x-bmx"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "blueprint",
+    "name": "Blueprint",
+    "aliases": [
+      "blueprint"
+    ],
+    "filenames": [
+      "*.blp"
+    ],
+    "mimetypes": [
+      "text/x-blueprint"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "bnf",
+    "name": "BNF",
+    "aliases": [
+      "bnf"
+    ],
+    "filenames": [
+      "*.bnf"
+    ],
+    "mimetypes": [
+      "text/x-bnf"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "boa",
+    "name": "Boa",
+    "aliases": [
+      "boa"
+    ],
+    "filenames": [
+      "*.boa"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "boo",
+    "name": "Boo",
+    "aliases": [
+      "boo"
+    ],
+    "filenames": [
+      "*.boo"
+    ],
+    "mimetypes": [
+      "text/x-boo"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "boogie",
+    "name": "Boogie",
+    "aliases": [
+      "boogie"
+    ],
+    "filenames": [
+      "*.bpl"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "bqn",
+    "name": "BQN",
+    "aliases": [
+      "bqn"
+    ],
+    "filenames": [
+      "*.bqn"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "brainfuck",
+    "name": "Brainfuck",
+    "aliases": [
+      "brainfuck",
+      "bf"
+    ],
+    "filenames": [
+      "*.bf",
+      "*.b"
+    ],
+    "mimetypes": [
+      "application/x-brainfuck"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "bst",
+    "name": "BST",
+    "aliases": [
+      "bst",
+      "bst-pybtex"
+    ],
+    "filenames": [
+      "*.bst"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "bugs",
+    "name": "BUGS",
+    "aliases": [
+      "bugs",
+      "winbugs",
+      "openbugs"
+    ],
+    "filenames": [
+      "*.bug"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "c-objdump",
+    "name": "c-objdump",
+    "aliases": [
+      "c-objdump"
+    ],
+    "filenames": [
+      "*.c-objdump"
+    ],
+    "mimetypes": [
+      "text/x-c-objdump"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ca65",
+    "name": "ca65 assembler",
+    "aliases": [
+      "ca65"
+    ],
+    "filenames": [
+      "*.s"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "caddyfile",
+    "name": "Caddyfile",
+    "aliases": [
+      "caddyfile",
+      "caddy"
+    ],
+    "filenames": [
+      "Caddyfile"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "cadl",
+    "name": "cADL",
+    "aliases": [
+      "cadl"
+    ],
+    "filenames": [
+      "*.cadl"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "camkes",
+    "name": "CAmkES",
+    "aliases": [
+      "camkes",
+      "idl4"
+    ],
+    "filenames": [
+      "*.camkes",
+      "*.idl4"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "capnp",
+    "name": "Cap'n Proto",
+    "aliases": [
+      "capnp"
+    ],
+    "filenames": [
+      "*.capnp"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "capdl",
+    "name": "CapDL",
+    "aliases": [
+      "capdl"
+    ],
+    "filenames": [
+      "*.cdl"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "carbon",
+    "name": "Carbon",
+    "aliases": [
+      "carbon"
+    ],
+    "filenames": [
+      "*.carbon"
+    ],
+    "mimetypes": [
+      "text/x-carbon"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "cbmbas",
+    "name": "CBM BASIC V2",
+    "aliases": [
+      "cbmbas"
+    ],
+    "filenames": [
+      "*.bas"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "cddl",
+    "name": "CDDL",
+    "aliases": [
+      "cddl"
+    ],
+    "filenames": [
+      "*.cddl"
+    ],
+    "mimetypes": [
+      "text/x-cddl"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "cel",
+    "name": "CEL",
+    "aliases": [
+      "cel"
+    ],
+    "filenames": [
+      "*.cel"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ceylon",
+    "name": "Ceylon",
+    "aliases": [
+      "ceylon"
+    ],
+    "filenames": [
+      "*.ceylon"
+    ],
+    "mimetypes": [
+      "text/x-ceylon"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "cfengine3",
+    "name": "CFEngine3",
+    "aliases": [
+      "cfengine3",
+      "cf3"
+    ],
+    "filenames": [
+      "*.cf"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "cfs",
+    "name": "cfstatement",
+    "aliases": [
+      "cfs"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "chaiscript",
+    "name": "ChaiScript",
+    "aliases": [
+      "chaiscript",
+      "chai"
+    ],
+    "filenames": [
+      "*.chai"
+    ],
+    "mimetypes": [
+      "text/x-chaiscript",
+      "application/x-chaiscript"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "chapel",
+    "name": "Chapel",
+    "aliases": [
+      "chapel",
+      "chpl"
+    ],
+    "filenames": [
+      "*.chpl"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "charmci",
+    "name": "Charmci",
+    "aliases": [
+      "charmci"
+    ],
+    "filenames": [
+      "*.ci"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "cheetah",
+    "name": "Cheetah",
+    "aliases": [
+      "cheetah",
+      "spitfire"
+    ],
+    "filenames": [
+      "*.tmpl",
+      "*.spt"
+    ],
+    "mimetypes": [
+      "application/x-cheetah",
+      "application/x-spitfire"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "cirru",
+    "name": "Cirru",
+    "aliases": [
+      "cirru"
+    ],
+    "filenames": [
+      "*.cirru"
+    ],
+    "mimetypes": [
+      "text/x-cirru"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "clay",
+    "name": "Clay",
+    "aliases": [
+      "clay"
+    ],
+    "filenames": [
+      "*.clay"
+    ],
+    "mimetypes": [
+      "text/x-clay"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "clean",
+    "name": "Clean",
+    "aliases": [
+      "clean"
+    ],
+    "filenames": [
+      "*.icl",
+      "*.dcl"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "clojure",
+    "name": "Clojure",
+    "aliases": [
+      "clojure",
+      "clj"
+    ],
+    "filenames": [
+      "*.clj",
+      "*.cljc"
+    ],
+    "mimetypes": [
+      "text/x-clojure",
+      "application/x-clojure"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "clojurescript",
+    "name": "ClojureScript",
+    "aliases": [
+      "clojurescript",
+      "cljs"
+    ],
+    "filenames": [
+      "*.cljs"
+    ],
+    "mimetypes": [
+      "text/x-clojurescript",
+      "application/x-clojurescript"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "cmake",
+    "name": "CMake",
+    "aliases": [
+      "cmake"
+    ],
+    "filenames": [
+      "*.cmake",
+      "CMakeLists.txt"
+    ],
+    "mimetypes": [
+      "text/x-cmake"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "cobol",
+    "name": "COBOL",
+    "aliases": [
+      "cobol"
+    ],
+    "filenames": [
+      "*.cob",
+      "*.COB",
+      "*.cpy",
+      "*.CPY"
+    ],
+    "mimetypes": [
+      "text/x-cobol"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "cobolfree",
+    "name": "COBOLFree",
+    "aliases": [
+      "cobolfree"
+    ],
+    "filenames": [
+      "*.cbl",
+      "*.CBL"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "codeql",
+    "name": "CodeQL",
+    "aliases": [
+      "codeql",
+      "ql"
+    ],
+    "filenames": [
+      "*.ql",
+      "*.qll"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "coffeescript",
+    "name": "CoffeeScript",
+    "aliases": [
+      "coffeescript",
+      "coffee-script",
+      "coffee"
+    ],
+    "filenames": [
+      "*.coffee"
+    ],
+    "mimetypes": [
+      "text/coffeescript"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "cfc",
+    "name": "Coldfusion CFC",
+    "aliases": [
+      "cfc"
+    ],
+    "filenames": [
+      "*.cfc"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "cfm",
+    "name": "Coldfusion HTML",
+    "aliases": [
+      "cfm"
+    ],
+    "filenames": [
+      "*.cfm",
+      "*.cfml"
+    ],
+    "mimetypes": [
+      "application/x-coldfusion"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "comal",
+    "name": "COMAL-80",
+    "aliases": [
+      "comal",
+      "comal80"
+    ],
+    "filenames": [
+      "*.cml",
+      "*.comal"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "common-lisp",
+    "name": "Common Lisp",
+    "aliases": [
+      "common-lisp",
+      "cl",
+      "lisp"
+    ],
+    "filenames": [
+      "*.cl",
+      "*.lisp"
+    ],
+    "mimetypes": [
+      "text/x-common-lisp"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "componentpascal",
+    "name": "Component Pascal",
+    "aliases": [
+      "componentpascal",
+      "cp"
+    ],
+    "filenames": [
+      "*.cp",
+      "*.cps"
+    ],
+    "mimetypes": [
+      "text/x-component-pascal"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "cplint",
+    "name": "cplint",
+    "aliases": [
+      "cplint"
+    ],
+    "filenames": [
+      "*.ecl",
+      "*.prolog",
+      "*.pro",
+      "*.pl",
+      "*.P",
+      "*.lpad",
+      "*.cpl"
+    ],
+    "mimetypes": [
+      "text/x-cplint"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "cpp-objdump",
+    "name": "cpp-objdump",
+    "aliases": [
+      "cpp-objdump",
+      "c++-objdumb",
+      "cxx-objdump"
+    ],
+    "filenames": [
+      "*.cpp-objdump",
+      "*.c++-objdump",
+      "*.cxx-objdump"
+    ],
+    "mimetypes": [
+      "text/x-cpp-objdump"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "cpsa",
+    "name": "CPSA",
+    "aliases": [
+      "cpsa"
+    ],
+    "filenames": [
+      "*.cpsa"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "crmsh",
+    "name": "Crmsh",
+    "aliases": [
+      "crmsh",
+      "pcmk"
+    ],
+    "filenames": [
+      "*.crmsh",
+      "*.pcmk"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "croc",
+    "name": "Croc",
+    "aliases": [
+      "croc"
+    ],
+    "filenames": [
+      "*.croc"
+    ],
+    "mimetypes": [
+      "text/x-crocsrc"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "cryptol",
+    "name": "Cryptol",
+    "aliases": [
+      "cryptol",
+      "cry"
+    ],
+    "filenames": [
+      "*.cry"
+    ],
+    "mimetypes": [
+      "text/x-cryptol"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "cr",
+    "name": "Crystal",
+    "aliases": [
+      "cr",
+      "crystal"
+    ],
+    "filenames": [
+      "*.cr"
+    ],
+    "mimetypes": [
+      "text/x-crystal"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "csound-document",
+    "name": "Csound Document",
+    "aliases": [
+      "csound-document",
+      "csound-csd"
+    ],
+    "filenames": [
+      "*.csd"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "csound",
+    "name": "Csound Orchestra",
+    "aliases": [
+      "csound",
+      "csound-orc"
+    ],
+    "filenames": [
+      "*.orc",
+      "*.udo"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "csound-score",
+    "name": "Csound Score",
+    "aliases": [
+      "csound-score",
+      "csound-sco"
+    ],
+    "filenames": [
+      "*.sco"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "css+django",
+    "name": "CSS+Django/Jinja",
+    "aliases": [
+      "css+django",
+      "css+jinja"
+    ],
+    "filenames": [
+      "*.css.j2",
+      "*.css.jinja2"
+    ],
+    "mimetypes": [
+      "text/css+django",
+      "text/css+jinja"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "css+genshitext",
+    "name": "CSS+Genshi Text",
+    "aliases": [
+      "css+genshitext",
+      "css+genshi"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/css+genshi"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "css+lasso",
+    "name": "CSS+Lasso",
+    "aliases": [
+      "css+lasso"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/css+lasso"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "css+mako",
+    "name": "CSS+Mako",
+    "aliases": [
+      "css+mako"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/css+mako"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "css+mozpreproc",
+    "name": "CSS+mozpreproc",
+    "aliases": [
+      "css+mozpreproc"
+    ],
+    "filenames": [
+      "*.css.in"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "css+myghty",
+    "name": "CSS+Myghty",
+    "aliases": [
+      "css+myghty"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/css+myghty"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "css+php",
+    "name": "CSS+PHP",
+    "aliases": [
+      "css+php"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/css+php"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "css+ruby",
+    "name": "CSS+Ruby",
+    "aliases": [
+      "css+ruby",
+      "css+erb"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/css+ruby"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "css+smarty",
+    "name": "CSS+Smarty",
+    "aliases": [
+      "css+smarty"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/css+smarty"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "css+ul4",
+    "name": "CSS+UL4",
+    "aliases": [
+      "css+ul4"
+    ],
+    "filenames": [
+      "*.cssul4"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "cuda",
+    "name": "CUDA",
+    "aliases": [
+      "cuda",
+      "cu"
+    ],
+    "filenames": [
+      "*.cu",
+      "*.cuh"
+    ],
+    "mimetypes": [
+      "text/x-cuda"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "cypher",
+    "name": "Cypher",
+    "aliases": [
+      "cypher"
+    ],
+    "filenames": [
+      "*.cyp",
+      "*.cypher"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "cython",
+    "name": "Cython",
+    "aliases": [
+      "cython",
+      "pyx",
+      "pyrex"
+    ],
+    "filenames": [
+      "*.pyx",
+      "*.pxd",
+      "*.pxi"
+    ],
+    "mimetypes": [
+      "text/x-cython",
+      "application/x-cython"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "d",
+    "name": "D",
+    "aliases": [
+      "d"
+    ],
+    "filenames": [
+      "*.d",
+      "*.di"
+    ],
+    "mimetypes": [
+      "text/x-dsrc"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "d-objdump",
+    "name": "d-objdump",
+    "aliases": [
+      "d-objdump"
+    ],
+    "filenames": [
+      "*.d-objdump"
+    ],
+    "mimetypes": [
+      "text/x-d-objdump"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "dpatch",
+    "name": "Darcs Patch",
+    "aliases": [
+      "dpatch"
+    ],
+    "filenames": [
+      "*.dpatch",
+      "*.darcspatch"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "dart",
+    "name": "Dart",
+    "aliases": [
+      "dart"
+    ],
+    "filenames": [
+      "*.dart"
+    ],
+    "mimetypes": [
+      "text/x-dart"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "dasm16",
+    "name": "DASM16",
+    "aliases": [
+      "dasm16"
+    ],
+    "filenames": [
+      "*.dasm16",
+      "*.dasm"
+    ],
+    "mimetypes": [
+      "text/x-dasm16"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "dax",
+    "name": "Dax",
+    "aliases": [
+      "dax"
+    ],
+    "filenames": [
+      "*.dax"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "debcontrol",
+    "name": "Debian Control file",
+    "aliases": [
+      "debcontrol",
+      "control"
+    ],
+    "filenames": [
+      "control"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "debsources",
+    "name": "Debian Sourcelist",
+    "aliases": [
+      "debsources",
+      "sourceslist",
+      "sources.list"
+    ],
+    "filenames": [
+      "sources.list"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "debian.sources",
+    "name": "Debian Sources file",
+    "aliases": [
+      "debian.sources"
+    ],
+    "filenames": [
+      "*.sources"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "delphi",
+    "name": "Delphi",
+    "aliases": [
+      "delphi",
+      "pas",
+      "pascal",
+      "objectpascal"
+    ],
+    "filenames": [
+      "*.pas",
+      "*.dpr"
+    ],
+    "mimetypes": [
+      "text/x-pascal"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "desktop",
+    "name": "Desktop file",
+    "aliases": [
+      "desktop"
+    ],
+    "filenames": [
+      "*.desktop"
+    ],
+    "mimetypes": [
+      "application/x-desktop"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "devicetree",
+    "name": "Devicetree",
+    "aliases": [
+      "devicetree",
+      "dts"
+    ],
+    "filenames": [
+      "*.dts",
+      "*.dtsi"
+    ],
+    "mimetypes": [
+      "text/x-c"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "dg",
+    "name": "dg",
+    "aliases": [
+      "dg"
+    ],
+    "filenames": [
+      "*.dg"
+    ],
+    "mimetypes": [
+      "text/x-dg"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "django",
+    "name": "Django/Jinja",
+    "aliases": [
+      "django",
+      "jinja"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "application/x-django-templating",
+      "application/x-jinja"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "dtd",
+    "name": "DTD",
+    "aliases": [
+      "dtd"
+    ],
+    "filenames": [
+      "*.dtd"
+    ],
+    "mimetypes": [
+      "application/xml-dtd"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "duel",
+    "name": "Duel",
+    "aliases": [
+      "duel",
+      "jbst",
+      "jsonml+bst"
+    ],
+    "filenames": [
+      "*.duel",
+      "*.jbst"
+    ],
+    "mimetypes": [
+      "text/x-duel",
+      "text/x-jbst"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "dylan",
+    "name": "Dylan",
+    "aliases": [
+      "dylan"
+    ],
+    "filenames": [
+      "*.dylan",
+      "*.dyl",
+      "*.intr"
+    ],
+    "mimetypes": [
+      "text/x-dylan"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "dylan-console",
+    "name": "Dylan session",
+    "aliases": [
+      "dylan-console",
+      "dylan-repl"
+    ],
+    "filenames": [
+      "*.dylan-console"
+    ],
+    "mimetypes": [
+      "text/x-dylan-console"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "dylan-lid",
+    "name": "DylanLID",
+    "aliases": [
+      "dylan-lid",
+      "lid"
+    ],
+    "filenames": [
+      "*.lid",
+      "*.hdp"
+    ],
+    "mimetypes": [
+      "text/x-dylan-lid"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "email",
+    "name": "E-mail",
+    "aliases": [
+      "email",
+      "eml"
+    ],
+    "filenames": [
+      "*.eml"
+    ],
+    "mimetypes": [
+      "message/rfc822"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "earl-grey",
+    "name": "Earl Grey",
+    "aliases": [
+      "earl-grey",
+      "earlgrey",
+      "eg"
+    ],
+    "filenames": [
+      "*.eg"
+    ],
+    "mimetypes": [
+      "text/x-earl-grey"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "easytrieve",
+    "name": "Easytrieve",
+    "aliases": [
+      "easytrieve"
+    ],
+    "filenames": [
+      "*.ezt",
+      "*.mac"
+    ],
+    "mimetypes": [
+      "text/x-easytrieve"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ebnf",
+    "name": "EBNF",
+    "aliases": [
+      "ebnf"
+    ],
+    "filenames": [
+      "*.ebnf"
+    ],
+    "mimetypes": [
+      "text/x-ebnf"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ec",
+    "name": "eC",
+    "aliases": [
+      "ec"
+    ],
+    "filenames": [
+      "*.ec",
+      "*.eh"
+    ],
+    "mimetypes": [
+      "text/x-echdr",
+      "text/x-ecsrc"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ecl",
+    "name": "ECL",
+    "aliases": [
+      "ecl"
+    ],
+    "filenames": [
+      "*.ecl"
+    ],
+    "mimetypes": [
+      "application/x-ecl"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "eiffel",
+    "name": "Eiffel",
+    "aliases": [
+      "eiffel"
+    ],
+    "filenames": [
+      "*.e"
+    ],
+    "mimetypes": [
+      "text/x-eiffel"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "iex",
+    "name": "Elixir iex session",
+    "aliases": [
+      "iex"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/x-elixir-shellsession"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "elm",
+    "name": "Elm",
+    "aliases": [
+      "elm"
+    ],
+    "filenames": [
+      "*.elm"
+    ],
+    "mimetypes": [
+      "text/x-elm"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "elpi",
+    "name": "Elpi",
+    "aliases": [
+      "elpi"
+    ],
+    "filenames": [
+      "*.elpi"
+    ],
+    "mimetypes": [
+      "text/x-elpi"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "emacs-lisp",
+    "name": "EmacsLisp",
+    "aliases": [
+      "emacs-lisp",
+      "elisp",
+      "emacs"
+    ],
+    "filenames": [
+      "*.el"
+    ],
+    "mimetypes": [
+      "text/x-elisp",
+      "application/x-elisp"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ragel-em",
+    "name": "Embedded Ragel",
+    "aliases": [
+      "ragel-em"
+    ],
+    "filenames": [
+      "*.rl"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "erb",
+    "name": "ERB",
+    "aliases": [
+      "erb"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "application/x-ruby-templating"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "erl",
+    "name": "Erlang erl session",
+    "aliases": [
+      "erl"
+    ],
+    "filenames": [
+      "*.erl-sh"
+    ],
+    "mimetypes": [
+      "text/x-erl-shellsession"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "evoque",
+    "name": "Evoque",
+    "aliases": [
+      "evoque"
+    ],
+    "filenames": [
+      "*.evoque"
+    ],
+    "mimetypes": [
+      "application/x-evoque"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "execline",
+    "name": "execline",
+    "aliases": [
+      "execline"
+    ],
+    "filenames": [
+      "*.exec"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ezhil",
+    "name": "Ezhil",
+    "aliases": [
+      "ezhil"
+    ],
+    "filenames": [
+      "*.n"
+    ],
+    "mimetypes": [
+      "text/x-ezhil"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "fsharp",
+    "name": "F#",
+    "aliases": [
+      "fsharp",
+      "f#"
+    ],
+    "filenames": [
+      "*.fs",
+      "*.fsi",
+      "*.fsx"
+    ],
+    "mimetypes": [
+      "text/x-fsharp"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "factor",
+    "name": "Factor",
+    "aliases": [
+      "factor"
+    ],
+    "filenames": [
+      "*.factor"
+    ],
+    "mimetypes": [
+      "text/x-factor"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "fancy",
+    "name": "Fancy",
+    "aliases": [
+      "fancy",
+      "fy"
+    ],
+    "filenames": [
+      "*.fy",
+      "*.fancypack"
+    ],
+    "mimetypes": [
+      "text/x-fancysrc"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "fan",
+    "name": "Fantom",
+    "aliases": [
+      "fan"
+    ],
+    "filenames": [
+      "*.fan"
+    ],
+    "mimetypes": [
+      "application/x-fantom"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "felix",
+    "name": "Felix",
+    "aliases": [
+      "felix",
+      "flx"
+    ],
+    "filenames": [
+      "*.flx",
+      "*.flxh"
+    ],
+    "mimetypes": [
+      "text/x-felix"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "fennel",
+    "name": "Fennel",
+    "aliases": [
+      "fennel",
+      "fnl"
+    ],
+    "filenames": [
+      "*.fnl",
+      "*.fnlm"
+    ],
+    "mimetypes": [
+      "text/x-fennel"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "fift",
+    "name": "Fift",
+    "aliases": [
+      "fift",
+      "fif"
+    ],
+    "filenames": [
+      "*.fif"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "fish",
+    "name": "Fish",
+    "aliases": [
+      "fish",
+      "fishshell"
+    ],
+    "filenames": [
+      "*.fish",
+      "*.load"
+    ],
+    "mimetypes": [
+      "application/x-fish"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "flatline",
+    "name": "Flatline",
+    "aliases": [
+      "flatline"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/x-flatline"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "floscript",
+    "name": "FloScript",
+    "aliases": [
+      "floscript",
+      "flo"
+    ],
+    "filenames": [
+      "*.flo"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "forth",
+    "name": "Forth",
+    "aliases": [
+      "forth"
+    ],
+    "filenames": [
+      "*.frt",
+      "*.fs"
+    ],
+    "mimetypes": [
+      "application/x-forth"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "fortran",
+    "name": "Fortran",
+    "aliases": [
+      "fortran",
+      "f90"
+    ],
+    "filenames": [
+      "*.f03",
+      "*.f90",
+      "*.F03",
+      "*.F90"
+    ],
+    "mimetypes": [
+      "text/x-fortran"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "fortranfixed",
+    "name": "FortranFixed",
+    "aliases": [
+      "fortranfixed"
+    ],
+    "filenames": [
+      "*.f",
+      "*.F"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "foxpro",
+    "name": "FoxPro",
+    "aliases": [
+      "foxpro",
+      "vfp",
+      "clipper",
+      "xbase"
+    ],
+    "filenames": [
+      "*.PRG",
+      "*.prg"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "freefem",
+    "name": "Freefem",
+    "aliases": [
+      "freefem"
+    ],
+    "filenames": [
+      "*.edp"
+    ],
+    "mimetypes": [
+      "text/x-freefem"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "fstar",
+    "name": "FStar",
+    "aliases": [
+      "fstar"
+    ],
+    "filenames": [
+      "*.fst",
+      "*.fsti"
+    ],
+    "mimetypes": [
+      "text/x-fstar"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "func",
+    "name": "FunC",
+    "aliases": [
+      "func",
+      "fc"
+    ],
+    "filenames": [
+      "*.fc",
+      "*.func"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "futhark",
+    "name": "Futhark",
+    "aliases": [
+      "futhark"
+    ],
+    "filenames": [
+      "*.fut"
+    ],
+    "mimetypes": [
+      "text/x-futhark"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "gcode",
+    "name": "g-code",
+    "aliases": [
+      "gcode"
+    ],
+    "filenames": [
+      "*.gcode"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "gap",
+    "name": "GAP",
+    "aliases": [
+      "gap"
+    ],
+    "filenames": [
+      "*.g",
+      "*.gd",
+      "*.gi",
+      "*.gap"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "gap-console",
+    "name": "GAP session",
+    "aliases": [
+      "gap-console",
+      "gap-repl"
+    ],
+    "filenames": [
+      "*.tst"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "gas",
+    "name": "GAS",
+    "aliases": [
+      "gas",
+      "asm"
+    ],
+    "filenames": [
+      "*.s",
+      "*.S"
+    ],
+    "mimetypes": [
+      "text/x-gas"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "gdscript",
+    "name": "GDScript",
+    "aliases": [
+      "gdscript",
+      "gd"
+    ],
+    "filenames": [
+      "*.gd"
+    ],
+    "mimetypes": [
+      "text/x-gdscript",
+      "application/x-gdscript"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "genshi",
+    "name": "Genshi",
+    "aliases": [
+      "genshi",
+      "kid",
+      "xml+genshi",
+      "xml+kid"
+    ],
+    "filenames": [
+      "*.kid"
+    ],
+    "mimetypes": [
+      "application/x-genshi",
+      "application/x-kid"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "genshitext",
+    "name": "Genshi Text",
+    "aliases": [
+      "genshitext"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "application/x-genshi-text",
+      "text/x-genshi"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "pot",
+    "name": "Gettext Catalog",
+    "aliases": [
+      "pot",
+      "po"
+    ],
+    "filenames": [
+      "*.pot",
+      "*.po"
+    ],
+    "mimetypes": [
+      "application/x-gettext",
+      "text/x-gettext",
+      "text/gettext"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "gherkin",
+    "name": "Gherkin",
+    "aliases": [
+      "gherkin",
+      "cucumber"
+    ],
+    "filenames": [
+      "*.feature"
+    ],
+    "mimetypes": [
+      "text/x-gherkin"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "gleam",
+    "name": "Gleam",
+    "aliases": [
+      "gleam"
+    ],
+    "filenames": [
+      "*.gleam"
+    ],
+    "mimetypes": [
+      "text/x-gleam"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "glsl",
+    "name": "GLSL",
+    "aliases": [
+      "glsl"
+    ],
+    "filenames": [
+      "*.vert",
+      "*.frag",
+      "*.geo"
+    ],
+    "mimetypes": [
+      "text/x-glslsrc"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "gnuplot",
+    "name": "Gnuplot",
+    "aliases": [
+      "gnuplot"
+    ],
+    "filenames": [
+      "*.plot",
+      "*.plt"
+    ],
+    "mimetypes": [
+      "text/x-gnuplot"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "golo",
+    "name": "Golo",
+    "aliases": [
+      "golo"
+    ],
+    "filenames": [
+      "*.golo"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "gooddata-cl",
+    "name": "GoodData-CL",
+    "aliases": [
+      "gooddata-cl"
+    ],
+    "filenames": [
+      "*.gdc"
+    ],
+    "mimetypes": [
+      "text/x-gooddata-cl"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "googlesql",
+    "name": "GoogleSQL",
+    "aliases": [
+      "googlesql",
+      "zetasql"
+    ],
+    "filenames": [
+      "*.googlesql",
+      "*.googlesql.sql"
+    ],
+    "mimetypes": [
+      "text/x-google-sql",
+      "text/x-google-sql-aux"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "gosu",
+    "name": "Gosu",
+    "aliases": [
+      "gosu"
+    ],
+    "filenames": [
+      "*.gs",
+      "*.gsx",
+      "*.gsp",
+      "*.vark"
+    ],
+    "mimetypes": [
+      "text/x-gosu"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "gst",
+    "name": "Gosu Template",
+    "aliases": [
+      "gst"
+    ],
+    "filenames": [
+      "*.gst"
+    ],
+    "mimetypes": [
+      "text/x-gosu-template"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "graphviz",
+    "name": "Graphviz",
+    "aliases": [
+      "graphviz",
+      "dot"
+    ],
+    "filenames": [
+      "*.gv",
+      "*.dot"
+    ],
+    "mimetypes": [
+      "text/x-graphviz",
+      "text/vnd.graphviz"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "groff",
+    "name": "Groff",
+    "aliases": [
+      "groff",
+      "nroff",
+      "man"
+    ],
+    "filenames": [
+      "*.[1-9]",
+      "*.man",
+      "*.1p",
+      "*.3pm"
+    ],
+    "mimetypes": [
+      "application/x-troff",
+      "text/troff"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "groovy",
+    "name": "Groovy",
+    "aliases": [
+      "groovy"
+    ],
+    "filenames": [
+      "*.groovy",
+      "*.gradle"
+    ],
+    "mimetypes": [
+      "text/x-groovy"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "gsql",
+    "name": "GSQL",
+    "aliases": [
+      "gsql"
+    ],
+    "filenames": [
+      "*.gsql"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "haml",
+    "name": "Haml",
+    "aliases": [
+      "haml"
+    ],
+    "filenames": [
+      "*.haml"
+    ],
+    "mimetypes": [
+      "text/x-haml"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "handlebars",
+    "name": "Handlebars",
+    "aliases": [
+      "handlebars"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "hare",
+    "name": "Hare",
+    "aliases": [
+      "hare"
+    ],
+    "filenames": [
+      "*.ha"
+    ],
+    "mimetypes": [
+      "text/x-hare"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "haxe",
+    "name": "Haxe",
+    "aliases": [
+      "haxe",
+      "hxsl",
+      "hx"
+    ],
+    "filenames": [
+      "*.hx",
+      "*.hxsl"
+    ],
+    "mimetypes": [
+      "text/haxe",
+      "text/x-haxe",
+      "text/x-hx"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "hexdump",
+    "name": "Hexdump",
+    "aliases": [
+      "hexdump"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "hlsl",
+    "name": "HLSL",
+    "aliases": [
+      "hlsl"
+    ],
+    "filenames": [
+      "*.hlsl",
+      "*.hlsli"
+    ],
+    "mimetypes": [
+      "text/x-hlsl"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "hsail",
+    "name": "HSAIL",
+    "aliases": [
+      "hsail",
+      "hsa"
+    ],
+    "filenames": [
+      "*.hsail"
+    ],
+    "mimetypes": [
+      "text/x-hsail"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "hspec",
+    "name": "Hspec",
+    "aliases": [
+      "hspec"
+    ],
+    "filenames": [
+      "*Spec.hs"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "html+ng2",
+    "name": "HTML + Angular2",
+    "aliases": [
+      "html+ng2"
+    ],
+    "filenames": [
+      "*.ng2"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "html+cheetah",
+    "name": "HTML+Cheetah",
+    "aliases": [
+      "html+cheetah",
+      "html+spitfire",
+      "htmlcheetah"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/html+cheetah",
+      "text/html+spitfire"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "html+django",
+    "name": "HTML+Django/Jinja",
+    "aliases": [
+      "html+django",
+      "html+jinja",
+      "htmldjango"
+    ],
+    "filenames": [
+      "*.html.j2",
+      "*.htm.j2",
+      "*.xhtml.j2",
+      "*.html.jinja2",
+      "*.htm.jinja2",
+      "*.xhtml.jinja2"
+    ],
+    "mimetypes": [
+      "text/html+django",
+      "text/html+jinja"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "html+evoque",
+    "name": "HTML+Evoque",
+    "aliases": [
+      "html+evoque"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/html+evoque"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "html+genshi",
+    "name": "HTML+Genshi",
+    "aliases": [
+      "html+genshi",
+      "html+kid"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/html+genshi"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "html+handlebars",
+    "name": "HTML+Handlebars",
+    "aliases": [
+      "html+handlebars"
+    ],
+    "filenames": [
+      "*.handlebars",
+      "*.hbs"
+    ],
+    "mimetypes": [
+      "text/html+handlebars",
+      "text/x-handlebars-template"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "html+lasso",
+    "name": "HTML+Lasso",
+    "aliases": [
+      "html+lasso"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/html+lasso",
+      "application/x-httpd-lasso",
+      "application/x-httpd-lasso[89]"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "html+mako",
+    "name": "HTML+Mako",
+    "aliases": [
+      "html+mako"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/html+mako"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "html+myghty",
+    "name": "HTML+Myghty",
+    "aliases": [
+      "html+myghty"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/html+myghty"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "html+php",
+    "name": "HTML+PHP",
+    "aliases": [
+      "html+php"
+    ],
+    "filenames": [
+      "*.phtml"
+    ],
+    "mimetypes": [
+      "application/x-php",
+      "application/x-httpd-php",
+      "application/x-httpd-php3",
+      "application/x-httpd-php4",
+      "application/x-httpd-php5"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "html+smarty",
+    "name": "HTML+Smarty",
+    "aliases": [
+      "html+smarty"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/html+smarty"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "html+twig",
+    "name": "HTML+Twig",
+    "aliases": [
+      "html+twig"
+    ],
+    "filenames": [
+      "*.twig"
+    ],
+    "mimetypes": [
+      "text/html+twig"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "html+ul4",
+    "name": "HTML+UL4",
+    "aliases": [
+      "html+ul4"
+    ],
+    "filenames": [
+      "*.htmlul4"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "html+velocity",
+    "name": "HTML+Velocity",
+    "aliases": [
+      "html+velocity"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/html+velocity"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "http",
+    "name": "HTTP",
+    "aliases": [
+      "http"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "haxeml",
+    "name": "Hxml",
+    "aliases": [
+      "haxeml",
+      "hxml"
+    ],
+    "filenames": [
+      "*.hxml"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "hylang",
+    "name": "Hy",
+    "aliases": [
+      "hylang",
+      "hy"
+    ],
+    "filenames": [
+      "*.hy"
+    ],
+    "mimetypes": [
+      "text/x-hy",
+      "application/x-hy"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "hybris",
+    "name": "Hybris",
+    "aliases": [
+      "hybris"
+    ],
+    "filenames": [
+      "*.hyb"
+    ],
+    "mimetypes": [
+      "text/x-hybris",
+      "application/x-hybris"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "icon",
+    "name": "Icon",
+    "aliases": [
+      "icon"
+    ],
+    "filenames": [
+      "*.icon",
+      "*.ICON"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "idl",
+    "name": "IDL",
+    "aliases": [
+      "idl"
+    ],
+    "filenames": [
+      "*.pro"
+    ],
+    "mimetypes": [
+      "text/idl"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "idris",
+    "name": "Idris",
+    "aliases": [
+      "idris",
+      "idr"
+    ],
+    "filenames": [
+      "*.idr"
+    ],
+    "mimetypes": [
+      "text/x-idris"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "igor",
+    "name": "Igor",
+    "aliases": [
+      "igor",
+      "igorpro"
+    ],
+    "filenames": [
+      "*.ipf"
+    ],
+    "mimetypes": [
+      "text/ipf"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "inform6",
+    "name": "Inform 6",
+    "aliases": [
+      "inform6",
+      "i6"
+    ],
+    "filenames": [
+      "*.inf"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "i6t",
+    "name": "Inform 6 template",
+    "aliases": [
+      "i6t"
+    ],
+    "filenames": [
+      "*.i6t"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "inform7",
+    "name": "Inform 7",
+    "aliases": [
+      "inform7",
+      "i7"
+    ],
+    "filenames": [
+      "*.ni",
+      "*.i7x"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ini",
+    "name": "INI",
+    "aliases": [
+      "ini",
+      "cfg",
+      "dosini"
+    ],
+    "filenames": [
+      "*.ini",
+      "*.cfg",
+      "*.inf",
+      ".editorconfig"
+    ],
+    "mimetypes": [
+      "text/x-ini",
+      "text/inf"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "io",
+    "name": "Io",
+    "aliases": [
+      "io"
+    ],
+    "filenames": [
+      "*.io"
+    ],
+    "mimetypes": [
+      "text/x-iosrc"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ioke",
+    "name": "Ioke",
+    "aliases": [
+      "ioke",
+      "ik"
+    ],
+    "filenames": [
+      "*.ik"
+    ],
+    "mimetypes": [
+      "text/x-iokesrc"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "irc",
+    "name": "IRC logs",
+    "aliases": [
+      "irc"
+    ],
+    "filenames": [
+      "*.weechatlog"
+    ],
+    "mimetypes": [
+      "text/x-irclog"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "isabelle",
+    "name": "Isabelle",
+    "aliases": [
+      "isabelle"
+    ],
+    "filenames": [
+      "*.thy"
+    ],
+    "mimetypes": [
+      "text/x-isabelle"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "j",
+    "name": "J",
+    "aliases": [
+      "j"
+    ],
+    "filenames": [
+      "*.ijs"
+    ],
+    "mimetypes": [
+      "text/x-j"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "jags",
+    "name": "JAGS",
+    "aliases": [
+      "jags"
+    ],
+    "filenames": [
+      "*.jag",
+      "*.bug"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "janet",
+    "name": "Janet",
+    "aliases": [
+      "janet"
+    ],
+    "filenames": [
+      "*.janet",
+      "*.jdn"
+    ],
+    "mimetypes": [
+      "text/x-janet",
+      "application/x-janet"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "jasmin",
+    "name": "Jasmin",
+    "aliases": [
+      "jasmin",
+      "jasminxt"
+    ],
+    "filenames": [
+      "*.j"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "jsp",
+    "name": "Java Server Page",
+    "aliases": [
+      "jsp"
+    ],
+    "filenames": [
+      "*.jsp"
+    ],
+    "mimetypes": [
+      "application/x-jsp"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "javascript+cheetah",
+    "name": "JavaScript+Cheetah",
+    "aliases": [
+      "javascript+cheetah",
+      "js+cheetah",
+      "javascript+spitfire",
+      "js+spitfire"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "application/x-javascript+cheetah",
+      "text/x-javascript+cheetah",
+      "text/javascript+cheetah",
+      "application/x-javascript+spitfire",
+      "text/x-javascript+spitfire",
+      "text/javascript+spitfire"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "javascript+django",
+    "name": "JavaScript+Django/Jinja",
+    "aliases": [
+      "javascript+django",
+      "js+django",
+      "javascript+jinja",
+      "js+jinja"
+    ],
+    "filenames": [
+      "*.js.j2",
+      "*.js.jinja2"
+    ],
+    "mimetypes": [
+      "application/x-javascript+django",
+      "application/x-javascript+jinja",
+      "text/x-javascript+django",
+      "text/x-javascript+jinja",
+      "text/javascript+django",
+      "text/javascript+jinja"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "js+genshitext",
+    "name": "JavaScript+Genshi Text",
+    "aliases": [
+      "js+genshitext",
+      "js+genshi",
+      "javascript+genshitext",
+      "javascript+genshi"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "application/x-javascript+genshi",
+      "text/x-javascript+genshi",
+      "text/javascript+genshi"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "javascript+lasso",
+    "name": "JavaScript+Lasso",
+    "aliases": [
+      "javascript+lasso",
+      "js+lasso"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "application/x-javascript+lasso",
+      "text/x-javascript+lasso",
+      "text/javascript+lasso"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "javascript+mako",
+    "name": "JavaScript+Mako",
+    "aliases": [
+      "javascript+mako",
+      "js+mako"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "application/x-javascript+mako",
+      "text/x-javascript+mako",
+      "text/javascript+mako"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "js+mako",
+    "name": "JavaScript+Mako",
+    "aliases": [
+      "js+mako",
+      "javascript+mako"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "javascript+mozpreproc",
+    "name": "Javascript+mozpreproc",
+    "aliases": [
+      "javascript+mozpreproc"
+    ],
+    "filenames": [
+      "*.js.in"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "javascript+myghty",
+    "name": "JavaScript+Myghty",
+    "aliases": [
+      "javascript+myghty",
+      "js+myghty"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "application/x-javascript+myghty",
+      "text/x-javascript+myghty",
+      "text/javascript+mygthy"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "javascript+php",
+    "name": "JavaScript+PHP",
+    "aliases": [
+      "javascript+php",
+      "js+php"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "application/x-javascript+php",
+      "text/x-javascript+php",
+      "text/javascript+php"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "javascript+ruby",
+    "name": "JavaScript+Ruby",
+    "aliases": [
+      "javascript+ruby",
+      "js+ruby",
+      "javascript+erb",
+      "js+erb"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "application/x-javascript+ruby",
+      "text/x-javascript+ruby",
+      "text/javascript+ruby"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "javascript+smarty",
+    "name": "JavaScript+Smarty",
+    "aliases": [
+      "javascript+smarty",
+      "js+smarty"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "application/x-javascript+smarty",
+      "text/x-javascript+smarty",
+      "text/javascript+smarty"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "js+ul4",
+    "name": "Javascript+UL4",
+    "aliases": [
+      "js+ul4"
+    ],
+    "filenames": [
+      "*.jsul4"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "jcl",
+    "name": "JCL",
+    "aliases": [
+      "jcl"
+    ],
+    "filenames": [
+      "*.jcl"
+    ],
+    "mimetypes": [
+      "text/x-jcl"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "jmespath",
+    "name": "JMESPath",
+    "aliases": [
+      "jmespath",
+      "jp"
+    ],
+    "filenames": [
+      "*.jp"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "jsgf",
+    "name": "JSGF",
+    "aliases": [
+      "jsgf"
+    ],
+    "filenames": [
+      "*.jsgf"
+    ],
+    "mimetypes": [
+      "application/jsgf",
+      "application/x-jsgf",
+      "text/jsgf"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "jslt",
+    "name": "JSLT",
+    "aliases": [
+      "jslt"
+    ],
+    "filenames": [
+      "*.jslt"
+    ],
+    "mimetypes": [
+      "text/x-jslt"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "jsonld",
+    "name": "JSON-LD",
+    "aliases": [
+      "jsonld",
+      "json-ld"
+    ],
+    "filenames": [
+      "*.jsonld"
+    ],
+    "mimetypes": [
+      "application/ld+json"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "json5",
+    "name": "JSON5",
+    "aliases": [
+      "json5"
+    ],
+    "filenames": [
+      "*.json5"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "jsonnet",
+    "name": "Jsonnet",
+    "aliases": [
+      "jsonnet"
+    ],
+    "filenames": [
+      "*.jsonnet",
+      "*.libsonnet"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "jsx",
+    "name": "JSX",
+    "aliases": [
+      "jsx",
+      "react"
+    ],
+    "filenames": [
+      "*.jsx",
+      "*.react"
+    ],
+    "mimetypes": [
+      "text/jsx",
+      "text/typescript-jsx"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "jlcon",
+    "name": "Julia console",
+    "aliases": [
+      "jlcon",
+      "julia-repl"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "juttle",
+    "name": "Juttle",
+    "aliases": [
+      "juttle"
+    ],
+    "filenames": [
+      "*.juttle"
+    ],
+    "mimetypes": [
+      "application/juttle",
+      "application/x-juttle",
+      "text/x-juttle",
+      "text/juttle"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "k",
+    "name": "K",
+    "aliases": [
+      "k"
+    ],
+    "filenames": [
+      "*.k"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "kal",
+    "name": "Kal",
+    "aliases": [
+      "kal"
+    ],
+    "filenames": [
+      "*.kal"
+    ],
+    "mimetypes": [
+      "text/kal",
+      "application/kal"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "kconfig",
+    "name": "Kconfig",
+    "aliases": [
+      "kconfig",
+      "menuconfig",
+      "linux-config",
+      "kernel-config"
+    ],
+    "filenames": [
+      "Kconfig*",
+      "*Config.in*",
+      "external.in*",
+      "standard-modules.in"
+    ],
+    "mimetypes": [
+      "text/x-kconfig"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "kmsg",
+    "name": "Kernel log",
+    "aliases": [
+      "kmsg",
+      "dmesg"
+    ],
+    "filenames": [
+      "*.kmsg",
+      "*.dmesg"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "koka",
+    "name": "Koka",
+    "aliases": [
+      "koka"
+    ],
+    "filenames": [
+      "*.kk",
+      "*.kki"
+    ],
+    "mimetypes": [
+      "text/x-koka"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "kuin",
+    "name": "Kuin",
+    "aliases": [
+      "kuin"
+    ],
+    "filenames": [
+      "*.kn"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "kql",
+    "name": "Kusto",
+    "aliases": [
+      "kql",
+      "kusto"
+    ],
+    "filenames": [
+      "*.kql",
+      "*.kusto",
+      ".csl"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "lasso",
+    "name": "Lasso",
+    "aliases": [
+      "lasso",
+      "lassoscript"
+    ],
+    "filenames": [
+      "*.lasso",
+      "*.lasso[89]"
+    ],
+    "mimetypes": [
+      "text/x-lasso"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ldapconf",
+    "name": "LDAP configuration file",
+    "aliases": [
+      "ldapconf",
+      "ldaprc"
+    ],
+    "filenames": [
+      ".ldaprc",
+      "ldaprc",
+      "ldap.conf"
+    ],
+    "mimetypes": [
+      "text/x-ldapconf"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ldif",
+    "name": "LDIF",
+    "aliases": [
+      "ldif"
+    ],
+    "filenames": [
+      "*.ldif"
+    ],
+    "mimetypes": [
+      "text/x-ldif"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "lean",
+    "name": "Lean",
+    "aliases": [
+      "lean",
+      "lean3"
+    ],
+    "filenames": [
+      "*.lean"
+    ],
+    "mimetypes": [
+      "text/x-lean",
+      "text/x-lean3"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "lean4",
+    "name": "Lean4",
+    "aliases": [
+      "lean4"
+    ],
+    "filenames": [
+      "*.lean"
+    ],
+    "mimetypes": [
+      "text/x-lean4"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "less",
+    "name": "LessCss",
+    "aliases": [
+      "less"
+    ],
+    "filenames": [
+      "*.less"
+    ],
+    "mimetypes": [
+      "text/x-less-css"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "lighttpd",
+    "name": "Lighttpd configuration file",
+    "aliases": [
+      "lighttpd",
+      "lighty"
+    ],
+    "filenames": [
+      "lighttpd.conf"
+    ],
+    "mimetypes": [
+      "text/x-lighttpd-conf"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "lilypond",
+    "name": "LilyPond",
+    "aliases": [
+      "lilypond"
+    ],
+    "filenames": [
+      "*.ly"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "limbo",
+    "name": "Limbo",
+    "aliases": [
+      "limbo"
+    ],
+    "filenames": [
+      "*.b"
+    ],
+    "mimetypes": [
+      "text/limbo"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "liquid",
+    "name": "liquid",
+    "aliases": [
+      "liquid"
+    ],
+    "filenames": [
+      "*.liquid"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "literate-agda",
+    "name": "Literate Agda",
+    "aliases": [
+      "literate-agda",
+      "lagda"
+    ],
+    "filenames": [
+      "*.lagda"
+    ],
+    "mimetypes": [
+      "text/x-literate-agda"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "literate-cryptol",
+    "name": "Literate Cryptol",
+    "aliases": [
+      "literate-cryptol",
+      "lcryptol",
+      "lcry"
+    ],
+    "filenames": [
+      "*.lcry"
+    ],
+    "mimetypes": [
+      "text/x-literate-cryptol"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "literate-haskell",
+    "name": "Literate Haskell",
+    "aliases": [
+      "literate-haskell",
+      "lhaskell",
+      "lhs"
+    ],
+    "filenames": [
+      "*.lhs"
+    ],
+    "mimetypes": [
+      "text/x-literate-haskell"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "literate-idris",
+    "name": "Literate Idris",
+    "aliases": [
+      "literate-idris",
+      "lidris",
+      "lidr"
+    ],
+    "filenames": [
+      "*.lidr"
+    ],
+    "mimetypes": [
+      "text/x-literate-idris"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "livescript",
+    "name": "LiveScript",
+    "aliases": [
+      "livescript",
+      "live-script"
+    ],
+    "filenames": [
+      "*.ls"
+    ],
+    "mimetypes": [
+      "text/livescript"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "llvm",
+    "name": "LLVM",
+    "aliases": [
+      "llvm"
+    ],
+    "filenames": [
+      "*.ll"
+    ],
+    "mimetypes": [
+      "text/x-llvm"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "llvm-mir",
+    "name": "LLVM-MIR",
+    "aliases": [
+      "llvm-mir"
+    ],
+    "filenames": [
+      "*.mir"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "llvm-mir-body",
+    "name": "LLVM-MIR Body",
+    "aliases": [
+      "llvm-mir-body"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "logos",
+    "name": "Logos",
+    "aliases": [
+      "logos"
+    ],
+    "filenames": [
+      "*.x",
+      "*.xi",
+      "*.xm",
+      "*.xmi"
+    ],
+    "mimetypes": [
+      "text/x-logos"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "logtalk",
+    "name": "Logtalk",
+    "aliases": [
+      "logtalk"
+    ],
+    "filenames": [
+      "*.lgt",
+      "*.logtalk"
+    ],
+    "mimetypes": [
+      "text/x-logtalk"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "lsl",
+    "name": "LSL",
+    "aliases": [
+      "lsl"
+    ],
+    "filenames": [
+      "*.lsl"
+    ],
+    "mimetypes": [
+      "text/x-lsl"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "luau",
+    "name": "Luau",
+    "aliases": [
+      "luau"
+    ],
+    "filenames": [
+      "*.luau"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "macaulay2",
+    "name": "Macaulay2",
+    "aliases": [
+      "macaulay2"
+    ],
+    "filenames": [
+      "*.m2"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "make",
+    "name": "Makefile",
+    "aliases": [
+      "make",
+      "makefile",
+      "mf",
+      "bsdmake"
+    ],
+    "filenames": [
+      "*.mak",
+      "*.mk",
+      "Makefile",
+      "makefile",
+      "Makefile.*",
+      "GNUmakefile"
+    ],
+    "mimetypes": [
+      "text/x-makefile"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "mako",
+    "name": "Mako",
+    "aliases": [
+      "mako"
+    ],
+    "filenames": [
+      "*.mao"
+    ],
+    "mimetypes": [
+      "application/x-mako"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "maple",
+    "name": "Maple",
+    "aliases": [
+      "maple"
+    ],
+    "filenames": [
+      "*.mpl",
+      "*.mi",
+      "*.mm"
+    ],
+    "mimetypes": [
+      "text/x-maple"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "maql",
+    "name": "MAQL",
+    "aliases": [
+      "maql"
+    ],
+    "filenames": [
+      "*.maql"
+    ],
+    "mimetypes": [
+      "text/x-gooddata-maql",
+      "application/x-gooddata-maql"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "mask",
+    "name": "Mask",
+    "aliases": [
+      "mask"
+    ],
+    "filenames": [
+      "*.mask"
+    ],
+    "mimetypes": [
+      "text/x-mask"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "mason",
+    "name": "Mason",
+    "aliases": [
+      "mason"
+    ],
+    "filenames": [
+      "*.m",
+      "*.mhtml",
+      "*.mc",
+      "*.mi",
+      "autohandler",
+      "dhandler"
+    ],
+    "mimetypes": [
+      "application/x-mason"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "mathematica",
+    "name": "Mathematica",
+    "aliases": [
+      "mathematica",
+      "mma",
+      "nb",
+      "wl",
+      "wolfram"
+    ],
+    "filenames": [
+      "*.nb",
+      "*.cdf",
+      "*.nbp",
+      "*.ma",
+      "*.wl",
+      "*.wls"
+    ],
+    "mimetypes": [
+      "application/mathematica",
+      "application/vnd.wolfram.mathematica",
+      "application/vnd.wolfram.mathematica.package",
+      "application/vnd.wolfram.cdf",
+      "application/vnd.wolfram.wl"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "matlab",
+    "name": "Matlab",
+    "aliases": [
+      "matlab"
+    ],
+    "filenames": [
+      "*.m"
+    ],
+    "mimetypes": [
+      "text/matlab"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "matlabsession",
+    "name": "Matlab session",
+    "aliases": [
+      "matlabsession"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "maxima",
+    "name": "Maxima",
+    "aliases": [
+      "maxima",
+      "macsyma"
+    ],
+    "filenames": [
+      "*.mac",
+      "*.max"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "mcfunction",
+    "name": "MCFunction",
+    "aliases": [
+      "mcfunction",
+      "mcf"
+    ],
+    "filenames": [
+      "*.mcfunction"
+    ],
+    "mimetypes": [
+      "text/mcfunction"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "mcschema",
+    "name": "MCSchema",
+    "aliases": [
+      "mcschema"
+    ],
+    "filenames": [
+      "*.mcschema"
+    ],
+    "mimetypes": [
+      "text/mcschema"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "meson",
+    "name": "Meson",
+    "aliases": [
+      "meson",
+      "meson.build"
+    ],
+    "filenames": [
+      "meson.build",
+      "meson.options",
+      "meson_options.txt"
+    ],
+    "mimetypes": [
+      "text/x-meson"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "mime",
+    "name": "MIME",
+    "aliases": [
+      "mime"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "multipart/mixed",
+      "multipart/related",
+      "multipart/alternative"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "minid",
+    "name": "MiniD",
+    "aliases": [
+      "minid"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/x-minidsrc"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "miniscript",
+    "name": "MiniScript",
+    "aliases": [
+      "miniscript",
+      "ms"
+    ],
+    "filenames": [
+      "*.ms"
+    ],
+    "mimetypes": [
+      "text/x-minicript",
+      "application/x-miniscript"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "mips",
+    "name": "MIPS",
+    "aliases": [
+      "mips"
+    ],
+    "filenames": [
+      "*.mips",
+      "*.MIPS"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "modelica",
+    "name": "Modelica",
+    "aliases": [
+      "modelica"
+    ],
+    "filenames": [
+      "*.mo"
+    ],
+    "mimetypes": [
+      "text/x-modelica"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "modula2",
+    "name": "Modula-2",
+    "aliases": [
+      "modula2",
+      "m2"
+    ],
+    "filenames": [
+      "*.def",
+      "*.mod"
+    ],
+    "mimetypes": [
+      "text/x-modula2"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "trac-wiki",
+    "name": "MoinMoin/Trac Wiki markup",
+    "aliases": [
+      "trac-wiki",
+      "moin"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/x-trac-wiki"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "mojo",
+    "name": "Mojo",
+    "aliases": [
+      "mojo",
+      "🔥"
+    ],
+    "filenames": [
+      "*.mojo",
+      "*.🔥"
+    ],
+    "mimetypes": [
+      "text/x-mojo",
+      "application/x-mojo"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "monkey",
+    "name": "Monkey",
+    "aliases": [
+      "monkey"
+    ],
+    "filenames": [
+      "*.monkey"
+    ],
+    "mimetypes": [
+      "text/x-monkey"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "monte",
+    "name": "Monte",
+    "aliases": [
+      "monte"
+    ],
+    "filenames": [
+      "*.mt"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "moocode",
+    "name": "MOOCode",
+    "aliases": [
+      "moocode",
+      "moo"
+    ],
+    "filenames": [
+      "*.moo"
+    ],
+    "mimetypes": [
+      "text/x-moocode"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "moonscript",
+    "name": "MoonScript",
+    "aliases": [
+      "moonscript",
+      "moon"
+    ],
+    "filenames": [
+      "*.moon"
+    ],
+    "mimetypes": [
+      "text/x-moonscript",
+      "application/x-moonscript"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "mosel",
+    "name": "Mosel",
+    "aliases": [
+      "mosel"
+    ],
+    "filenames": [
+      "*.mos"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "mozhashpreproc",
+    "name": "mozhashpreproc",
+    "aliases": [
+      "mozhashpreproc"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "mozpercentpreproc",
+    "name": "mozpercentpreproc",
+    "aliases": [
+      "mozpercentpreproc"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "mql",
+    "name": "MQL",
+    "aliases": [
+      "mql",
+      "mq4",
+      "mq5",
+      "mql4",
+      "mql5"
+    ],
+    "filenames": [
+      "*.mq4",
+      "*.mq5",
+      "*.mqh"
+    ],
+    "mimetypes": [
+      "text/x-mql"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "mscgen",
+    "name": "Mscgen",
+    "aliases": [
+      "mscgen",
+      "msc"
+    ],
+    "filenames": [
+      "*.msc"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "doscon",
+    "name": "MSDOS Session",
+    "aliases": [
+      "doscon"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "mupad",
+    "name": "MuPAD",
+    "aliases": [
+      "mupad"
+    ],
+    "filenames": [
+      "*.mu"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "mxml",
+    "name": "MXML",
+    "aliases": [
+      "mxml"
+    ],
+    "filenames": [
+      "*.mxml"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "myghty",
+    "name": "Myghty",
+    "aliases": [
+      "myghty"
+    ],
+    "filenames": [
+      "*.myt",
+      "autodelegate"
+    ],
+    "mimetypes": [
+      "application/x-myghty"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "mysql",
+    "name": "MySQL",
+    "aliases": [
+      "mysql"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/x-mysql"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "nasm",
+    "name": "NASM",
+    "aliases": [
+      "nasm"
+    ],
+    "filenames": [
+      "*.asm",
+      "*.ASM",
+      "*.nasm"
+    ],
+    "mimetypes": [
+      "text/x-nasm"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ncl",
+    "name": "NCL",
+    "aliases": [
+      "ncl"
+    ],
+    "filenames": [
+      "*.ncl"
+    ],
+    "mimetypes": [
+      "text/ncl"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "nemerle",
+    "name": "Nemerle",
+    "aliases": [
+      "nemerle"
+    ],
+    "filenames": [
+      "*.n"
+    ],
+    "mimetypes": [
+      "text/x-nemerle"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "nesc",
+    "name": "nesC",
+    "aliases": [
+      "nesc"
+    ],
+    "filenames": [
+      "*.nc"
+    ],
+    "mimetypes": [
+      "text/x-nescsrc"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "nestedtext",
+    "name": "NestedText",
+    "aliases": [
+      "nestedtext",
+      "nt"
+    ],
+    "filenames": [
+      "*.nt"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "newlisp",
+    "name": "NewLisp",
+    "aliases": [
+      "newlisp"
+    ],
+    "filenames": [
+      "*.lsp",
+      "*.nl",
+      "*.kif"
+    ],
+    "mimetypes": [
+      "text/x-newlisp",
+      "application/x-newlisp"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "newspeak",
+    "name": "Newspeak",
+    "aliases": [
+      "newspeak"
+    ],
+    "filenames": [
+      "*.ns2"
+    ],
+    "mimetypes": [
+      "text/x-newspeak"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "nginx",
+    "name": "Nginx configuration file",
+    "aliases": [
+      "nginx"
+    ],
+    "filenames": [
+      "nginx.conf"
+    ],
+    "mimetypes": [
+      "text/x-nginx-conf"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "nimrod",
+    "name": "Nimrod",
+    "aliases": [
+      "nimrod",
+      "nim"
+    ],
+    "filenames": [
+      "*.nim",
+      "*.nimrod"
+    ],
+    "mimetypes": [
+      "text/x-nim"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "nit",
+    "name": "Nit",
+    "aliases": [
+      "nit"
+    ],
+    "filenames": [
+      "*.nit"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "nodejsrepl",
+    "name": "Node.js REPL console session",
+    "aliases": [
+      "nodejsrepl"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/x-nodejsrepl"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "notmuch",
+    "name": "Notmuch",
+    "aliases": [
+      "notmuch"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "nsis",
+    "name": "NSIS",
+    "aliases": [
+      "nsis",
+      "nsi",
+      "nsh"
+    ],
+    "filenames": [
+      "*.nsi",
+      "*.nsh"
+    ],
+    "mimetypes": [
+      "text/x-nsis"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "numba_ir",
+    "name": "Numba_IR",
+    "aliases": [
+      "numba_ir",
+      "numbair"
+    ],
+    "filenames": [
+      "*.numba_ir"
+    ],
+    "mimetypes": [
+      "text/x-numba_ir",
+      "text/x-numbair"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "numpy",
+    "name": "NumPy",
+    "aliases": [
+      "numpy"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "nusmv",
+    "name": "NuSMV",
+    "aliases": [
+      "nusmv"
+    ],
+    "filenames": [
+      "*.smv"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "objdump",
+    "name": "objdump",
+    "aliases": [
+      "objdump"
+    ],
+    "filenames": [
+      "*.objdump"
+    ],
+    "mimetypes": [
+      "text/x-objdump"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "objdump-nasm",
+    "name": "objdump-nasm",
+    "aliases": [
+      "objdump-nasm"
+    ],
+    "filenames": [
+      "*.objdump-intel"
+    ],
+    "mimetypes": [
+      "text/x-nasm-objdump"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "objective-c",
+    "name": "Objective-C",
+    "aliases": [
+      "objective-c",
+      "objectivec",
+      "obj-c",
+      "objc"
+    ],
+    "filenames": [
+      "*.m",
+      "*.h"
+    ],
+    "mimetypes": [
+      "text/x-objective-c"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "objective-c++",
+    "name": "Objective-C++",
+    "aliases": [
+      "objective-c++",
+      "objectivec++",
+      "obj-c++",
+      "objc++"
+    ],
+    "filenames": [
+      "*.mm",
+      "*.hh"
+    ],
+    "mimetypes": [
+      "text/x-objective-c++"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "objective-j",
+    "name": "Objective-J",
+    "aliases": [
+      "objective-j",
+      "objectivej",
+      "obj-j",
+      "objj"
+    ],
+    "filenames": [
+      "*.j"
+    ],
+    "mimetypes": [
+      "text/x-objective-j"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ocaml",
+    "name": "OCaml",
+    "aliases": [
+      "ocaml"
+    ],
+    "filenames": [
+      "*.ml",
+      "*.mli",
+      "*.mll",
+      "*.mly"
+    ],
+    "mimetypes": [
+      "text/x-ocaml"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "octave",
+    "name": "Octave",
+    "aliases": [
+      "octave"
+    ],
+    "filenames": [
+      "*.m"
+    ],
+    "mimetypes": [
+      "text/octave"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "odin",
+    "name": "ODIN",
+    "aliases": [
+      "odin"
+    ],
+    "filenames": [
+      "*.odin"
+    ],
+    "mimetypes": [
+      "text/odin"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "omg-idl",
+    "name": "OMG Interface Definition Language",
+    "aliases": [
+      "omg-idl"
+    ],
+    "filenames": [
+      "*.idl",
+      "*.pidl"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ooc",
+    "name": "Ooc",
+    "aliases": [
+      "ooc"
+    ],
+    "filenames": [
+      "*.ooc"
+    ],
+    "mimetypes": [
+      "text/x-ooc"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "opa",
+    "name": "Opa",
+    "aliases": [
+      "opa"
+    ],
+    "filenames": [
+      "*.opa"
+    ],
+    "mimetypes": [
+      "text/x-opa"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "openedge",
+    "name": "OpenEdge ABL",
+    "aliases": [
+      "openedge",
+      "abl",
+      "progress"
+    ],
+    "filenames": [
+      "*.p",
+      "*.cls"
+    ],
+    "mimetypes": [
+      "text/x-openedge",
+      "application/x-openedge"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "openscad",
+    "name": "OpenSCAD",
+    "aliases": [
+      "openscad"
+    ],
+    "filenames": [
+      "*.scad"
+    ],
+    "mimetypes": [
+      "application/x-openscad"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "org",
+    "name": "Org Mode",
+    "aliases": [
+      "org",
+      "orgmode",
+      "org-mode"
+    ],
+    "filenames": [
+      "*.org"
+    ],
+    "mimetypes": [
+      "text/org"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "pacmanconf",
+    "name": "PacmanConf",
+    "aliases": [
+      "pacmanconf"
+    ],
+    "filenames": [
+      "pacman.conf"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "pan",
+    "name": "Pan",
+    "aliases": [
+      "pan"
+    ],
+    "filenames": [
+      "*.pan"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "parasail",
+    "name": "ParaSail",
+    "aliases": [
+      "parasail"
+    ],
+    "filenames": [
+      "*.psi",
+      "*.psl"
+    ],
+    "mimetypes": [
+      "text/x-parasail"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "pawn",
+    "name": "Pawn",
+    "aliases": [
+      "pawn"
+    ],
+    "filenames": [
+      "*.p",
+      "*.pwn",
+      "*.inc"
+    ],
+    "mimetypes": [
+      "text/x-pawn"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "pddl",
+    "name": "PDDL",
+    "aliases": [
+      "pddl"
+    ],
+    "filenames": [
+      "*.pddl"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "peg",
+    "name": "PEG",
+    "aliases": [
+      "peg"
+    ],
+    "filenames": [
+      "*.peg"
+    ],
+    "mimetypes": [
+      "text/x-peg"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "perl",
+    "name": "Perl",
+    "aliases": [
+      "perl",
+      "pl"
+    ],
+    "filenames": [
+      "*.pl",
+      "*.pm",
+      "*.t",
+      "*.perl"
+    ],
+    "mimetypes": [
+      "text/x-perl",
+      "application/x-perl"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "perl6",
+    "name": "Perl6",
+    "aliases": [
+      "perl6",
+      "pl6",
+      "raku"
+    ],
+    "filenames": [
+      "*.pl",
+      "*.pm",
+      "*.nqp",
+      "*.p6",
+      "*.6pl",
+      "*.p6l",
+      "*.pl6",
+      "*.6pm",
+      "*.p6m",
+      "*.pm6",
+      "*.t",
+      "*.raku",
+      "*.rakumod",
+      "*.rakutest",
+      "*.rakudoc"
+    ],
+    "mimetypes": [
+      "text/x-perl6",
+      "application/x-perl6"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "phix",
+    "name": "Phix",
+    "aliases": [
+      "phix"
+    ],
+    "filenames": [
+      "*.exw"
+    ],
+    "mimetypes": [
+      "text/x-phix"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "pig",
+    "name": "Pig",
+    "aliases": [
+      "pig"
+    ],
+    "filenames": [
+      "*.pig"
+    ],
+    "mimetypes": [
+      "text/x-pig"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "pike",
+    "name": "Pike",
+    "aliases": [
+      "pike"
+    ],
+    "filenames": [
+      "*.pike",
+      "*.pmod"
+    ],
+    "mimetypes": [
+      "text/x-pike"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "pkgconfig",
+    "name": "PkgConfig",
+    "aliases": [
+      "pkgconfig"
+    ],
+    "filenames": [
+      "*.pc"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "plpgsql",
+    "name": "PL/pgSQL",
+    "aliases": [
+      "plpgsql"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/x-plpgsql"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "pointless",
+    "name": "Pointless",
+    "aliases": [
+      "pointless"
+    ],
+    "filenames": [
+      "*.ptls"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "pony",
+    "name": "Pony",
+    "aliases": [
+      "pony"
+    ],
+    "filenames": [
+      "*.pony"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "portugol",
+    "name": "Portugol",
+    "aliases": [
+      "portugol"
+    ],
+    "filenames": [
+      "*.alg",
+      "*.portugol"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "psql",
+    "name": "PostgreSQL console (psql)",
+    "aliases": [
+      "psql",
+      "postgresql-console",
+      "postgres-console"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/x-postgresql-psql"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "postgres-explain",
+    "name": "PostgreSQL EXPLAIN dialect",
+    "aliases": [
+      "postgres-explain"
+    ],
+    "filenames": [
+      "*.explain"
+    ],
+    "mimetypes": [
+      "text/x-postgresql-explain"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "postgresql",
+    "name": "PostgreSQL SQL dialect",
+    "aliases": [
+      "postgresql",
+      "postgres"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/x-postgresql"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "postscript",
+    "name": "PostScript",
+    "aliases": [
+      "postscript",
+      "postscr"
+    ],
+    "filenames": [
+      "*.ps",
+      "*.eps"
+    ],
+    "mimetypes": [
+      "application/postscript"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "pov",
+    "name": "POVRay",
+    "aliases": [
+      "pov"
+    ],
+    "filenames": [
+      "*.pov",
+      "*.inc"
+    ],
+    "mimetypes": [
+      "text/x-povray"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "pwsh-session",
+    "name": "PowerShell Session",
+    "aliases": [
+      "pwsh-session",
+      "ps1con"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "praat",
+    "name": "Praat",
+    "aliases": [
+      "praat"
+    ],
+    "filenames": [
+      "*.praat",
+      "*.proc",
+      "*.psc"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "procfile",
+    "name": "Procfile",
+    "aliases": [
+      "procfile"
+    ],
+    "filenames": [
+      "Procfile"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "prolog",
+    "name": "Prolog",
+    "aliases": [
+      "prolog"
+    ],
+    "filenames": [
+      "*.ecl",
+      "*.prolog",
+      "*.pro",
+      "*.pl"
+    ],
+    "mimetypes": [
+      "text/x-prolog"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "promela",
+    "name": "Promela",
+    "aliases": [
+      "promela"
+    ],
+    "filenames": [
+      "*.pml",
+      "*.prom",
+      "*.prm",
+      "*.promela",
+      "*.pr",
+      "*.pm"
+    ],
+    "mimetypes": [
+      "text/x-promela"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "properties",
+    "name": "Properties",
+    "aliases": [
+      "properties",
+      "jproperties"
+    ],
+    "filenames": [
+      "*.properties"
+    ],
+    "mimetypes": [
+      "text/x-java-properties"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "prql",
+    "name": "PRQL",
+    "aliases": [
+      "prql"
+    ],
+    "filenames": [
+      "*.prql"
+    ],
+    "mimetypes": [
+      "application/prql",
+      "application/x-prql"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "psysh",
+    "name": "PsySH console session for PHP",
+    "aliases": [
+      "psysh"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ptx",
+    "name": "PTX",
+    "aliases": [
+      "ptx"
+    ],
+    "filenames": [
+      "*.ptx"
+    ],
+    "mimetypes": [
+      "text/x-ptx"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "pug",
+    "name": "Pug",
+    "aliases": [
+      "pug",
+      "jade"
+    ],
+    "filenames": [
+      "*.pug",
+      "*.jade"
+    ],
+    "mimetypes": [
+      "text/x-pug",
+      "text/x-jade"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "puppet",
+    "name": "Puppet",
+    "aliases": [
+      "puppet"
+    ],
+    "filenames": [
+      "*.pp"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "purescript",
+    "name": "PureScript",
+    "aliases": [
+      "purescript",
+      "purs"
+    ],
+    "filenames": [
+      "*.purs"
+    ],
+    "mimetypes": [
+      "text/x-purescript"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "pypylog",
+    "name": "PyPy Log",
+    "aliases": [
+      "pypylog",
+      "pypy"
+    ],
+    "filenames": [
+      "*.pypylog"
+    ],
+    "mimetypes": [
+      "application/x-pypylog"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "python2",
+    "name": "Python 2.x",
+    "aliases": [
+      "python2",
+      "py2"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/x-python2",
+      "application/x-python2"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "py2tb",
+    "name": "Python 2.x Traceback",
+    "aliases": [
+      "py2tb"
+    ],
+    "filenames": [
+      "*.py2tb"
+    ],
+    "mimetypes": [
+      "text/x-python2-traceback"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "pycon",
+    "name": "Python console session",
+    "aliases": [
+      "pycon",
+      "python-console"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/x-python-doctest"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "pytb",
+    "name": "Python Traceback",
+    "aliases": [
+      "pytb",
+      "py3tb"
+    ],
+    "filenames": [
+      "*.pytb",
+      "*.py3tb"
+    ],
+    "mimetypes": [
+      "text/x-python-traceback",
+      "text/x-python3-traceback"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "py+ul4",
+    "name": "Python+UL4",
+    "aliases": [
+      "py+ul4"
+    ],
+    "filenames": [
+      "*.pyul4"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "q",
+    "name": "Q",
+    "aliases": [
+      "q"
+    ],
+    "filenames": [
+      "*.q"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "qbasic",
+    "name": "QBasic",
+    "aliases": [
+      "qbasic",
+      "basic"
+    ],
+    "filenames": [
+      "*.BAS",
+      "*.bas"
+    ],
+    "mimetypes": [
+      "text/basic"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "qlik",
+    "name": "Qlik",
+    "aliases": [
+      "qlik",
+      "qlikview",
+      "qliksense",
+      "qlikscript"
+    ],
+    "filenames": [
+      "*.qvs",
+      "*.qvw"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "qml",
+    "name": "QML",
+    "aliases": [
+      "qml",
+      "qbs"
+    ],
+    "filenames": [
+      "*.qml",
+      "*.qbs"
+    ],
+    "mimetypes": [
+      "application/x-qml",
+      "application/x-qt.qbs+qml"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "qvto",
+    "name": "QVTO",
+    "aliases": [
+      "qvto",
+      "qvt"
+    ],
+    "filenames": [
+      "*.qvto"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "racket",
+    "name": "Racket",
+    "aliases": [
+      "racket",
+      "rkt"
+    ],
+    "filenames": [
+      "*.rkt",
+      "*.rktd",
+      "*.rktl"
+    ],
+    "mimetypes": [
+      "text/x-racket",
+      "application/x-racket"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ragel",
+    "name": "Ragel",
+    "aliases": [
+      "ragel"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ragel-c",
+    "name": "Ragel in C Host",
+    "aliases": [
+      "ragel-c"
+    ],
+    "filenames": [
+      "*.rl"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ragel-cpp",
+    "name": "Ragel in CPP Host",
+    "aliases": [
+      "ragel-cpp"
+    ],
+    "filenames": [
+      "*.rl"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ragel-d",
+    "name": "Ragel in D Host",
+    "aliases": [
+      "ragel-d"
+    ],
+    "filenames": [
+      "*.rl"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ragel-java",
+    "name": "Ragel in Java Host",
+    "aliases": [
+      "ragel-java"
+    ],
+    "filenames": [
+      "*.rl"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ragel-objc",
+    "name": "Ragel in Objective C Host",
+    "aliases": [
+      "ragel-objc"
+    ],
+    "filenames": [
+      "*.rl"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ragel-ruby",
+    "name": "Ragel in Ruby Host",
+    "aliases": [
+      "ragel-ruby",
+      "ragel-rb"
+    ],
+    "filenames": [
+      "*.rl"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "rconsole",
+    "name": "RConsole",
+    "aliases": [
+      "rconsole",
+      "rout"
+    ],
+    "filenames": [
+      "*.Rout"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "rd",
+    "name": "Rd",
+    "aliases": [
+      "rd"
+    ],
+    "filenames": [
+      "*.Rd"
+    ],
+    "mimetypes": [
+      "text/x-r-doc"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "reasonml",
+    "name": "ReasonML",
+    "aliases": [
+      "reasonml",
+      "reason"
+    ],
+    "filenames": [
+      "*.re",
+      "*.rei"
+    ],
+    "mimetypes": [
+      "text/x-reasonml"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "rebol",
+    "name": "REBOL",
+    "aliases": [
+      "rebol"
+    ],
+    "filenames": [
+      "*.r",
+      "*.r3",
+      "*.reb"
+    ],
+    "mimetypes": [
+      "text/x-rebol"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "red",
+    "name": "Red",
+    "aliases": [
+      "red",
+      "red/system"
+    ],
+    "filenames": [
+      "*.red",
+      "*.reds"
+    ],
+    "mimetypes": [
+      "text/x-red",
+      "text/x-red-system"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "redcode",
+    "name": "Redcode",
+    "aliases": [
+      "redcode"
+    ],
+    "filenames": [
+      "*.cw"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "registry",
+    "name": "reg",
+    "aliases": [
+      "registry"
+    ],
+    "filenames": [
+      "*.reg"
+    ],
+    "mimetypes": [
+      "text/x-windows-registry"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "rego",
+    "name": "Rego",
+    "aliases": [
+      "rego"
+    ],
+    "filenames": [
+      "*.rego"
+    ],
+    "mimetypes": [
+      "text/x-rego"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "rng-compact",
+    "name": "Relax-NG Compact",
+    "aliases": [
+      "rng-compact",
+      "rnc"
+    ],
+    "filenames": [
+      "*.rnc"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "rell",
+    "name": "Rell",
+    "aliases": [
+      "rell"
+    ],
+    "filenames": [
+      "*.rell"
+    ],
+    "mimetypes": [
+      "text/x-rell"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "resourcebundle",
+    "name": "ResourceBundle",
+    "aliases": [
+      "resourcebundle",
+      "resource"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "restructuredtext",
+    "name": "reStructuredText",
+    "aliases": [
+      "restructuredtext",
+      "rst",
+      "rest"
+    ],
+    "filenames": [
+      "*.rst",
+      "*.rest"
+    ],
+    "mimetypes": [
+      "text/x-rst",
+      "text/prs.fallenstein.rst"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "rexx",
+    "name": "Rexx",
+    "aliases": [
+      "rexx",
+      "arexx"
+    ],
+    "filenames": [
+      "*.rexx",
+      "*.rex",
+      "*.rx",
+      "*.arexx"
+    ],
+    "mimetypes": [
+      "text/x-rexx"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "rhtml",
+    "name": "RHTML",
+    "aliases": [
+      "rhtml",
+      "html+erb",
+      "html+ruby"
+    ],
+    "filenames": [
+      "*.rhtml"
+    ],
+    "mimetypes": [
+      "text/html+ruby"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ride",
+    "name": "Ride",
+    "aliases": [
+      "ride"
+    ],
+    "filenames": [
+      "*.ride"
+    ],
+    "mimetypes": [
+      "text/x-ride"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "rita",
+    "name": "Rita",
+    "aliases": [
+      "rita"
+    ],
+    "filenames": [
+      "*.rita"
+    ],
+    "mimetypes": [
+      "text/rita"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "roboconf-graph",
+    "name": "Roboconf Graph",
+    "aliases": [
+      "roboconf-graph"
+    ],
+    "filenames": [
+      "*.graph"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "roboconf-instances",
+    "name": "Roboconf Instances",
+    "aliases": [
+      "roboconf-instances"
+    ],
+    "filenames": [
+      "*.instances"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "robotframework",
+    "name": "RobotFramework",
+    "aliases": [
+      "robotframework"
+    ],
+    "filenames": [
+      "*.robot",
+      "*.resource"
+    ],
+    "mimetypes": [
+      "text/x-robotframework"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "coq",
+    "name": "Rocq Prover",
+    "aliases": [
+      "coq",
+      "rocq",
+      "rocq-prover"
+    ],
+    "filenames": [
+      "*.v"
+    ],
+    "mimetypes": [
+      "text/x-coq",
+      "text/x-rocq"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "spec",
+    "name": "RPMSpec",
+    "aliases": [
+      "spec"
+    ],
+    "filenames": [
+      "*.spec"
+    ],
+    "mimetypes": [
+      "text/x-rpm-spec"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "rql",
+    "name": "RQL",
+    "aliases": [
+      "rql"
+    ],
+    "filenames": [
+      "*.rql"
+    ],
+    "mimetypes": [
+      "text/x-rql"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "rsl",
+    "name": "RSL",
+    "aliases": [
+      "rsl"
+    ],
+    "filenames": [
+      "*.rsl"
+    ],
+    "mimetypes": [
+      "text/rsl"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "rbcon",
+    "name": "Ruby irb session",
+    "aliases": [
+      "rbcon",
+      "irb"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/x-ruby-shellsession"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "sarl",
+    "name": "SARL",
+    "aliases": [
+      "sarl"
+    ],
+    "filenames": [
+      "*.sarl"
+    ],
+    "mimetypes": [
+      "text/x-sarl"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "sas",
+    "name": "SAS",
+    "aliases": [
+      "sas"
+    ],
+    "filenames": [
+      "*.SAS",
+      "*.sas"
+    ],
+    "mimetypes": [
+      "text/x-sas",
+      "text/sas",
+      "application/x-sas"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "sass",
+    "name": "Sass",
+    "aliases": [
+      "sass"
+    ],
+    "filenames": [
+      "*.sass"
+    ],
+    "mimetypes": [
+      "text/x-sass"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "savi",
+    "name": "Savi",
+    "aliases": [
+      "savi"
+    ],
+    "filenames": [
+      "*.savi"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ssp",
+    "name": "Scalate Server Page",
+    "aliases": [
+      "ssp"
+    ],
+    "filenames": [
+      "*.ssp"
+    ],
+    "mimetypes": [
+      "application/x-ssp"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "scaml",
+    "name": "Scaml",
+    "aliases": [
+      "scaml"
+    ],
+    "filenames": [
+      "*.scaml"
+    ],
+    "mimetypes": [
+      "text/x-scaml"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "scdoc",
+    "name": "scdoc",
+    "aliases": [
+      "scdoc",
+      "scd"
+    ],
+    "filenames": [
+      "*.scd",
+      "*.scdoc"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "scheme",
+    "name": "Scheme",
+    "aliases": [
+      "scheme",
+      "scm"
+    ],
+    "filenames": [
+      "*.scm",
+      "*.ss"
+    ],
+    "mimetypes": [
+      "text/x-scheme",
+      "application/x-scheme"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "scilab",
+    "name": "Scilab",
+    "aliases": [
+      "scilab"
+    ],
+    "filenames": [
+      "*.sci",
+      "*.sce",
+      "*.tst"
+    ],
+    "mimetypes": [
+      "text/scilab"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "scss",
+    "name": "SCSS",
+    "aliases": [
+      "scss"
+    ],
+    "filenames": [
+      "*.scss"
+    ],
+    "mimetypes": [
+      "text/x-scss"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "sed",
+    "name": "Sed",
+    "aliases": [
+      "sed",
+      "gsed",
+      "ssed"
+    ],
+    "filenames": [
+      "*.sed",
+      "*.[gs]sed"
+    ],
+    "mimetypes": [
+      "text/x-sed"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "shen",
+    "name": "Shen",
+    "aliases": [
+      "shen"
+    ],
+    "filenames": [
+      "*.shen"
+    ],
+    "mimetypes": [
+      "text/x-shen",
+      "application/x-shen"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "shexc",
+    "name": "ShExC",
+    "aliases": [
+      "shexc",
+      "shex"
+    ],
+    "filenames": [
+      "*.shex"
+    ],
+    "mimetypes": [
+      "text/shex"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "sieve",
+    "name": "Sieve",
+    "aliases": [
+      "sieve"
+    ],
+    "filenames": [
+      "*.siv",
+      "*.sieve"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "silver",
+    "name": "Silver",
+    "aliases": [
+      "silver"
+    ],
+    "filenames": [
+      "*.sil",
+      "*.vpr"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "singularity",
+    "name": "Singularity",
+    "aliases": [
+      "singularity"
+    ],
+    "filenames": [
+      "*.def",
+      "Singularity"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "slash",
+    "name": "Slash",
+    "aliases": [
+      "slash"
+    ],
+    "filenames": [
+      "*.sla"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "slim",
+    "name": "Slim",
+    "aliases": [
+      "slim"
+    ],
+    "filenames": [
+      "*.slim"
+    ],
+    "mimetypes": [
+      "text/x-slim"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "slurm",
+    "name": "Slurm",
+    "aliases": [
+      "slurm",
+      "sbatch"
+    ],
+    "filenames": [
+      "*.sl"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "smali",
+    "name": "Smali",
+    "aliases": [
+      "smali"
+    ],
+    "filenames": [
+      "*.smali"
+    ],
+    "mimetypes": [
+      "text/smali"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "smalltalk",
+    "name": "Smalltalk",
+    "aliases": [
+      "smalltalk",
+      "squeak",
+      "st"
+    ],
+    "filenames": [
+      "*.st"
+    ],
+    "mimetypes": [
+      "text/x-smalltalk"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "sgf",
+    "name": "SmartGameFormat",
+    "aliases": [
+      "sgf"
+    ],
+    "filenames": [
+      "*.sgf"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "smarty",
+    "name": "Smarty",
+    "aliases": [
+      "smarty"
+    ],
+    "filenames": [
+      "*.tpl"
+    ],
+    "mimetypes": [
+      "application/x-smarty"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "smithy",
+    "name": "Smithy",
+    "aliases": [
+      "smithy"
+    ],
+    "filenames": [
+      "*.smithy"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "snbt",
+    "name": "SNBT",
+    "aliases": [
+      "snbt"
+    ],
+    "filenames": [
+      "*.snbt"
+    ],
+    "mimetypes": [
+      "text/snbt"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "snobol",
+    "name": "Snobol",
+    "aliases": [
+      "snobol"
+    ],
+    "filenames": [
+      "*.snobol"
+    ],
+    "mimetypes": [
+      "text/x-snobol"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "snowball",
+    "name": "Snowball",
+    "aliases": [
+      "snowball"
+    ],
+    "filenames": [
+      "*.sbl"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "androidbp",
+    "name": "Soong",
+    "aliases": [
+      "androidbp",
+      "bp",
+      "soong"
+    ],
+    "filenames": [
+      "Android.bp"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "sophia",
+    "name": "Sophia",
+    "aliases": [
+      "sophia"
+    ],
+    "filenames": [
+      "*.aes"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "sp",
+    "name": "SourcePawn",
+    "aliases": [
+      "sp"
+    ],
+    "filenames": [
+      "*.sp"
+    ],
+    "mimetypes": [
+      "text/x-sourcepawn"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "sparql",
+    "name": "SPARQL",
+    "aliases": [
+      "sparql"
+    ],
+    "filenames": [
+      "*.rq",
+      "*.sparql"
+    ],
+    "mimetypes": [
+      "application/sparql-query"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "spice",
+    "name": "Spice",
+    "aliases": [
+      "spice",
+      "spicelang"
+    ],
+    "filenames": [
+      "*.spice"
+    ],
+    "mimetypes": [
+      "text/x-spice"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "sql+jinja",
+    "name": "SQL+Jinja",
+    "aliases": [
+      "sql+jinja"
+    ],
+    "filenames": [
+      "*.sql",
+      "*.sql.j2",
+      "*.sql.jinja2"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "sqlite3",
+    "name": "sqlite3con",
+    "aliases": [
+      "sqlite3"
+    ],
+    "filenames": [
+      "*.sqlite3-console"
+    ],
+    "mimetypes": [
+      "text/x-sqlite3-console"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "squidconf",
+    "name": "SquidConf",
+    "aliases": [
+      "squidconf",
+      "squid.conf",
+      "squid"
+    ],
+    "filenames": [
+      "squid.conf"
+    ],
+    "mimetypes": [
+      "text/x-squidconf"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "srcinfo",
+    "name": "Srcinfo",
+    "aliases": [
+      "srcinfo"
+    ],
+    "filenames": [
+      ".SRCINFO"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "stan",
+    "name": "Stan",
+    "aliases": [
+      "stan"
+    ],
+    "filenames": [
+      "*.stan"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "sml",
+    "name": "Standard ML",
+    "aliases": [
+      "sml"
+    ],
+    "filenames": [
+      "*.sml",
+      "*.sig",
+      "*.fun"
+    ],
+    "mimetypes": [
+      "text/x-standardml",
+      "application/x-standardml"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "stata",
+    "name": "Stata",
+    "aliases": [
+      "stata",
+      "do"
+    ],
+    "filenames": [
+      "*.do",
+      "*.ado"
+    ],
+    "mimetypes": [
+      "text/x-stata",
+      "text/stata",
+      "application/x-stata"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "supercollider",
+    "name": "SuperCollider",
+    "aliases": [
+      "supercollider",
+      "sc"
+    ],
+    "filenames": [
+      "*.sc",
+      "*.scd"
+    ],
+    "mimetypes": [
+      "application/supercollider",
+      "text/supercollider"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "swig",
+    "name": "SWIG",
+    "aliases": [
+      "swig"
+    ],
+    "filenames": [
+      "*.swg",
+      "*.i"
+    ],
+    "mimetypes": [
+      "text/swig"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "systemd",
+    "name": "Systemd",
+    "aliases": [
+      "systemd"
+    ],
+    "filenames": [
+      "*.service",
+      "*.socket",
+      "*.device",
+      "*.mount",
+      "*.automount",
+      "*.swap",
+      "*.target",
+      "*.path",
+      "*.timer",
+      "*.slice",
+      "*.scope"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "systemverilog",
+    "name": "systemverilog",
+    "aliases": [
+      "systemverilog",
+      "sv"
+    ],
+    "filenames": [
+      "*.sv",
+      "*.svh"
+    ],
+    "mimetypes": [
+      "text/x-systemverilog"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "tablegen",
+    "name": "TableGen",
+    "aliases": [
+      "tablegen",
+      "td"
+    ],
+    "filenames": [
+      "*.td"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "tact",
+    "name": "Tact",
+    "aliases": [
+      "tact"
+    ],
+    "filenames": [
+      "*.tact"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "tads3",
+    "name": "TADS 3",
+    "aliases": [
+      "tads3"
+    ],
+    "filenames": [
+      "*.t"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "tal",
+    "name": "Tal",
+    "aliases": [
+      "tal",
+      "uxntal"
+    ],
+    "filenames": [
+      "*.tal"
+    ],
+    "mimetypes": [
+      "text/x-uxntal"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "tap",
+    "name": "TAP",
+    "aliases": [
+      "tap"
+    ],
+    "filenames": [
+      "*.tap"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "tasm",
+    "name": "TASM",
+    "aliases": [
+      "tasm"
+    ],
+    "filenames": [
+      "*.asm",
+      "*.ASM",
+      "*.tasm"
+    ],
+    "mimetypes": [
+      "text/x-tasm"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "tcl",
+    "name": "Tcl",
+    "aliases": [
+      "tcl"
+    ],
+    "filenames": [
+      "*.tcl",
+      "*.rvt"
+    ],
+    "mimetypes": [
+      "text/x-tcl",
+      "text/x-script.tcl",
+      "application/x-tcl"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "tcsh",
+    "name": "Tcsh",
+    "aliases": [
+      "tcsh",
+      "csh"
+    ],
+    "filenames": [
+      "*.tcsh",
+      "*.csh"
+    ],
+    "mimetypes": [
+      "application/x-csh"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "tcshcon",
+    "name": "Tcsh Session",
+    "aliases": [
+      "tcshcon"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "tea",
+    "name": "Tea",
+    "aliases": [
+      "tea"
+    ],
+    "filenames": [
+      "*.tea"
+    ],
+    "mimetypes": [
+      "text/x-tea"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "teal",
+    "name": "teal",
+    "aliases": [
+      "teal"
+    ],
+    "filenames": [
+      "*.teal"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "teratermmacro",
+    "name": "Tera Term macro",
+    "aliases": [
+      "teratermmacro",
+      "teraterm",
+      "ttl"
+    ],
+    "filenames": [
+      "*.ttl"
+    ],
+    "mimetypes": [
+      "text/x-teratermmacro"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "termcap",
+    "name": "Termcap",
+    "aliases": [
+      "termcap"
+    ],
+    "filenames": [
+      "termcap",
+      "termcap.src"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "terminfo",
+    "name": "Terminfo",
+    "aliases": [
+      "terminfo"
+    ],
+    "filenames": [
+      "terminfo",
+      "terminfo.src"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "tex",
+    "name": "TeX",
+    "aliases": [
+      "tex",
+      "latex"
+    ],
+    "filenames": [
+      "*.tex",
+      "*.aux",
+      "*.toc"
+    ],
+    "mimetypes": [
+      "text/x-tex",
+      "text/x-latex"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "output",
+    "name": "Text output",
+    "aliases": [
+      "output"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ti",
+    "name": "ThingsDB",
+    "aliases": [
+      "ti",
+      "thingsdb"
+    ],
+    "filenames": [
+      "*.ti"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "thrift",
+    "name": "Thrift",
+    "aliases": [
+      "thrift"
+    ],
+    "filenames": [
+      "*.thrift"
+    ],
+    "mimetypes": [
+      "application/x-thrift"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "tid",
+    "name": "tiddler",
+    "aliases": [
+      "tid"
+    ],
+    "filenames": [
+      "*.tid"
+    ],
+    "mimetypes": [
+      "text/vnd.tiddlywiki"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "tlb",
+    "name": "Tl-b",
+    "aliases": [
+      "tlb"
+    ],
+    "filenames": [
+      "*.tlb"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "tls",
+    "name": "TLS Presentation Language",
+    "aliases": [
+      "tls"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "todotxt",
+    "name": "Todotxt",
+    "aliases": [
+      "todotxt"
+    ],
+    "filenames": [
+      "todo.txt",
+      "*.todotxt"
+    ],
+    "mimetypes": [
+      "text/x-todo"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "trafficscript",
+    "name": "TrafficScript",
+    "aliases": [
+      "trafficscript",
+      "rts"
+    ],
+    "filenames": [
+      "*.rts"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "tsql",
+    "name": "Transact-SQL",
+    "aliases": [
+      "tsql",
+      "t-sql"
+    ],
+    "filenames": [
+      "*.sql"
+    ],
+    "mimetypes": [
+      "text/x-tsql"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "treetop",
+    "name": "Treetop",
+    "aliases": [
+      "treetop"
+    ],
+    "filenames": [
+      "*.treetop",
+      "*.tt"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "tsx",
+    "name": "TSX",
+    "aliases": [
+      "tsx"
+    ],
+    "filenames": [
+      "*.tsx"
+    ],
+    "mimetypes": [
+      "text/typescript-tsx"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "turtle",
+    "name": "Turtle",
+    "aliases": [
+      "turtle"
+    ],
+    "filenames": [
+      "*.ttl"
+    ],
+    "mimetypes": [
+      "text/turtle",
+      "application/x-turtle"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "twig",
+    "name": "Twig",
+    "aliases": [
+      "twig"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "application/x-twig"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "tnt",
+    "name": "Typographic Number Theory",
+    "aliases": [
+      "tnt"
+    ],
+    "filenames": [
+      "*.tnt"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "typoscript",
+    "name": "TypoScript",
+    "aliases": [
+      "typoscript"
+    ],
+    "filenames": [
+      "*.typoscript"
+    ],
+    "mimetypes": [
+      "text/x-typoscript"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "typoscriptcssdata",
+    "name": "TypoScriptCssData",
+    "aliases": [
+      "typoscriptcssdata"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "typoscripthtmldata",
+    "name": "TypoScriptHtmlData",
+    "aliases": [
+      "typoscripthtmldata"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "typst",
+    "name": "Typst",
+    "aliases": [
+      "typst"
+    ],
+    "filenames": [
+      "*.typ"
+    ],
+    "mimetypes": [
+      "text/x-typst"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ucode",
+    "name": "ucode",
+    "aliases": [
+      "ucode"
+    ],
+    "filenames": [
+      "*.u",
+      "*.u1",
+      "*.u2"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "ul4",
+    "name": "UL4",
+    "aliases": [
+      "ul4"
+    ],
+    "filenames": [
+      "*.ul4"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "unicon",
+    "name": "Unicon",
+    "aliases": [
+      "unicon"
+    ],
+    "filenames": [
+      "*.icn"
+    ],
+    "mimetypes": [
+      "text/unicon"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "unixconfig",
+    "name": "Unix/Linux config files",
+    "aliases": [
+      "unixconfig",
+      "linuxconfig"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "urbiscript",
+    "name": "UrbiScript",
+    "aliases": [
+      "urbiscript"
+    ],
+    "filenames": [
+      "*.u"
+    ],
+    "mimetypes": [
+      "application/x-urbiscript"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "urlencoded",
+    "name": "urlencoded",
+    "aliases": [
+      "urlencoded"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "application/x-www-form-urlencoded"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "usd",
+    "name": "USD",
+    "aliases": [
+      "usd",
+      "usda"
+    ],
+    "filenames": [
+      "*.usd",
+      "*.usda"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "vala",
+    "name": "Vala",
+    "aliases": [
+      "vala",
+      "vapi"
+    ],
+    "filenames": [
+      "*.vala",
+      "*.vapi"
+    ],
+    "mimetypes": [
+      "text/x-vala"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "vb.net",
+    "name": "VB.net",
+    "aliases": [
+      "vb.net",
+      "vbnet",
+      "lobas",
+      "oobas",
+      "sobas",
+      "visual-basic",
+      "visualbasic"
+    ],
+    "filenames": [
+      "*.vb",
+      "*.bas"
+    ],
+    "mimetypes": [
+      "text/x-vbnet",
+      "text/x-vba"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "vbscript",
+    "name": "VBScript",
+    "aliases": [
+      "vbscript"
+    ],
+    "filenames": [
+      "*.vbs",
+      "*.VBS"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "vcl",
+    "name": "VCL",
+    "aliases": [
+      "vcl"
+    ],
+    "filenames": [
+      "*.vcl"
+    ],
+    "mimetypes": [
+      "text/x-vclsrc"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "vclsnippets",
+    "name": "VCLSnippets",
+    "aliases": [
+      "vclsnippets",
+      "vclsnippet"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/x-vclsnippet"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "vctreestatus",
+    "name": "VCTreeStatus",
+    "aliases": [
+      "vctreestatus"
+    ],
+    "filenames": [],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "velocity",
+    "name": "Velocity",
+    "aliases": [
+      "velocity"
+    ],
+    "filenames": [
+      "*.vm",
+      "*.fhtml"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "verifpal",
+    "name": "Verifpal",
+    "aliases": [
+      "verifpal"
+    ],
+    "filenames": [
+      "*.vp"
+    ],
+    "mimetypes": [
+      "text/x-verifpal"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "verilog",
+    "name": "verilog",
+    "aliases": [
+      "verilog",
+      "v"
+    ],
+    "filenames": [
+      "*.v"
+    ],
+    "mimetypes": [
+      "text/x-verilog"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "vgl",
+    "name": "VGL",
+    "aliases": [
+      "vgl"
+    ],
+    "filenames": [
+      "*.rpf"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "vhdl",
+    "name": "vhdl",
+    "aliases": [
+      "vhdl"
+    ],
+    "filenames": [
+      "*.vhdl",
+      "*.vhd"
+    ],
+    "mimetypes": [
+      "text/x-vhdl"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "vim",
+    "name": "VimL",
+    "aliases": [
+      "vim"
+    ],
+    "filenames": [
+      "*.vim",
+      ".vimrc",
+      ".exrc",
+      ".gvimrc",
+      "_vimrc",
+      "_exrc",
+      "_gvimrc",
+      "vimrc",
+      "gvimrc"
+    ],
+    "mimetypes": [
+      "text/x-vim"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "visualprolog",
+    "name": "Visual Prolog",
+    "aliases": [
+      "visualprolog"
+    ],
+    "filenames": [
+      "*.pro",
+      "*.cl",
+      "*.i",
+      "*.pack",
+      "*.ph"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "visualprologgrammar",
+    "name": "Visual Prolog Grammar",
+    "aliases": [
+      "visualprologgrammar"
+    ],
+    "filenames": [
+      "*.vipgrm"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "vue",
+    "name": "Vue",
+    "aliases": [
+      "vue"
+    ],
+    "filenames": [
+      "*.vue"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "vyper",
+    "name": "Vyper",
+    "aliases": [
+      "vyper"
+    ],
+    "filenames": [
+      "*.vy"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "wdiff",
+    "name": "WDiff",
+    "aliases": [
+      "wdiff"
+    ],
+    "filenames": [
+      "*.wdiff"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "webidl",
+    "name": "Web IDL",
+    "aliases": [
+      "webidl"
+    ],
+    "filenames": [
+      "*.webidl"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "wgsl",
+    "name": "WebGPU Shading Language",
+    "aliases": [
+      "wgsl"
+    ],
+    "filenames": [
+      "*.wgsl"
+    ],
+    "mimetypes": [
+      "text/wgsl"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "whiley",
+    "name": "Whiley",
+    "aliases": [
+      "whiley"
+    ],
+    "filenames": [
+      "*.whiley"
+    ],
+    "mimetypes": [
+      "text/x-whiley"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "wikitext",
+    "name": "Wikitext",
+    "aliases": [
+      "wikitext",
+      "mediawiki"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "text/x-wiki"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "wowtoc",
+    "name": "World of Warcraft TOC",
+    "aliases": [
+      "wowtoc"
+    ],
+    "filenames": [
+      "*.toc"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "wren",
+    "name": "Wren",
+    "aliases": [
+      "wren"
+    ],
+    "filenames": [
+      "*.wren"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "xpp",
+    "name": "X++",
+    "aliases": [
+      "xpp",
+      "x++"
+    ],
+    "filenames": [
+      "*.xpp"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "x10",
+    "name": "X10",
+    "aliases": [
+      "x10",
+      "xten"
+    ],
+    "filenames": [
+      "*.x10"
+    ],
+    "mimetypes": [
+      "text/x-x10"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "xml",
+    "name": "XML",
+    "aliases": [
+      "xml"
+    ],
+    "filenames": [
+      "*.xml",
+      "*.xsl",
+      "*.rss",
+      "*.xslt",
+      "*.xsd",
+      "*.wsdl",
+      "*.wsf",
+      "*.xbrl",
+      "*.pom",
+      "*.svg"
+    ],
+    "mimetypes": [
+      "text/xml",
+      "application/xml",
+      "image/svg+xml",
+      "application/rss+xml",
+      "application/atom+xml"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "xml+cheetah",
+    "name": "XML+Cheetah",
+    "aliases": [
+      "xml+cheetah",
+      "xml+spitfire"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "application/xml+cheetah",
+      "application/xml+spitfire"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "xml+django",
+    "name": "XML+Django/Jinja",
+    "aliases": [
+      "xml+django",
+      "xml+jinja"
+    ],
+    "filenames": [
+      "*.xml.j2",
+      "*.xml.jinja2"
+    ],
+    "mimetypes": [
+      "application/xml+django",
+      "application/xml+jinja"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "xml+evoque",
+    "name": "XML+Evoque",
+    "aliases": [
+      "xml+evoque"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "application/xml+evoque"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "xml+lasso",
+    "name": "XML+Lasso",
+    "aliases": [
+      "xml+lasso"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "application/xml+lasso"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "xml+mako",
+    "name": "XML+Mako",
+    "aliases": [
+      "xml+mako"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "application/xml+mako"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "xml+myghty",
+    "name": "XML+Myghty",
+    "aliases": [
+      "xml+myghty"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "application/xml+myghty"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "xml+php",
+    "name": "XML+PHP",
+    "aliases": [
+      "xml+php"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "application/xml+php"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "xml+ruby",
+    "name": "XML+Ruby",
+    "aliases": [
+      "xml+ruby",
+      "xml+erb"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "application/xml+ruby"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "xml+smarty",
+    "name": "XML+Smarty",
+    "aliases": [
+      "xml+smarty"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "application/xml+smarty"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "xml+ul4",
+    "name": "XML+UL4",
+    "aliases": [
+      "xml+ul4"
+    ],
+    "filenames": [
+      "*.xmlul4"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "xml+velocity",
+    "name": "XML+Velocity",
+    "aliases": [
+      "xml+velocity"
+    ],
+    "filenames": [],
+    "mimetypes": [
+      "application/xml+velocity"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "xorg.conf",
+    "name": "Xorg",
+    "aliases": [
+      "xorg.conf"
+    ],
+    "filenames": [
+      "xorg.conf"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "xquery",
+    "name": "XQuery",
+    "aliases": [
+      "xquery",
+      "xqy",
+      "xq",
+      "xql",
+      "xqm"
+    ],
+    "filenames": [
+      "*.xqy",
+      "*.xquery",
+      "*.xq",
+      "*.xql",
+      "*.xqm"
+    ],
+    "mimetypes": [
+      "text/xquery",
+      "application/xquery"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "xslt",
+    "name": "XSLT",
+    "aliases": [
+      "xslt"
+    ],
+    "filenames": [
+      "*.xsl",
+      "*.xslt",
+      "*.xpl"
+    ],
+    "mimetypes": [
+      "application/xsl+xml",
+      "application/xslt+xml"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "xtend",
+    "name": "Xtend",
+    "aliases": [
+      "xtend"
+    ],
+    "filenames": [
+      "*.xtend"
+    ],
+    "mimetypes": [
+      "text/x-xtend"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "extempore",
+    "name": "xtlang",
+    "aliases": [
+      "extempore"
+    ],
+    "filenames": [
+      "*.xtm"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "xul+mozpreproc",
+    "name": "XUL+mozpreproc",
+    "aliases": [
+      "xul+mozpreproc"
+    ],
+    "filenames": [
+      "*.xul.in"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "yaml+jinja",
+    "name": "YAML+Jinja",
+    "aliases": [
+      "yaml+jinja",
+      "salt",
+      "sls"
+    ],
+    "filenames": [
+      "*.sls",
+      "*.yaml.j2",
+      "*.yml.j2",
+      "*.yaml.jinja2",
+      "*.yml.jinja2"
+    ],
+    "mimetypes": [
+      "text/x-yaml+jinja",
+      "text/x-sls"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "yang",
+    "name": "YANG",
+    "aliases": [
+      "yang"
+    ],
+    "filenames": [
+      "*.yang"
+    ],
+    "mimetypes": [
+      "application/yang"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "yara",
+    "name": "YARA",
+    "aliases": [
+      "yara",
+      "yar"
+    ],
+    "filenames": [
+      "*.yar"
+    ],
+    "mimetypes": [
+      "text/x-yara"
+    ],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "zeek",
+    "name": "Zeek",
+    "aliases": [
+      "zeek",
+      "bro"
+    ],
+    "filenames": [
+      "*.zeek",
+      "*.bro"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "zephir",
+    "name": "Zephir",
+    "aliases": [
+      "zephir"
+    ],
+    "filenames": [
+      "*.zep"
+    ],
+    "mimetypes": [],
+    "category": "Other",
+    "is_popular": false
+  },
+  {
+    "id": "zone",
+    "name": "Zone",
+    "aliases": [
+      "zone"
+    ],
+    "filenames": [
+      "*.zone"
+    ],
+    "mimetypes": [
+      "text/dns"
+    ],
+    "category": "Other",
+    "is_popular": false
+  }
+]

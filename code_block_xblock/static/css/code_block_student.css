@@ -1,0 +1,331 @@
+/* Open edX Code Block Student CSS */
+
+.cb-card {
+    position: relative;
+    margin: 1.5rem 0;
+    border-radius: 8px;
+    border: 1px solid #30363d;
+    overflow: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.cb-card:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Header */
+.cb-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    font-size: 0.825rem;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    user-select: none;
+}
+
+.cb-header-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.cb-header-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.cb-lang-badge {
+    display: inline-block;
+    padding: 0.15rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    background: rgba(255, 255, 255, 0.12);
+}
+
+/* Copy Button */
+.cb-copy-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 4px;
+    padding: 0.25rem 0.55rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.15s ease-in-out;
+    line-height: 1;
+}
+
+.cb-copy-btn:hover {
+    background: rgba(255, 255, 255, 0.18);
+    transform: translateY(-1px);
+}
+
+.cb-copy-btn .cb-icon-check {
+    display: none;
+}
+
+.cb-copy-btn.cb-copied {
+    background: #238636 !important;
+    border-color: #2ea043 !important;
+    color: #ffffff !important;
+}
+
+.cb-copy-btn.cb-copied .cb-icon-copy {
+    display: none;
+}
+
+.cb-copy-btn.cb-copied .cb-icon-check {
+    display: inline-block;
+}
+
+/* Viewport and Pre */
+.cb-viewport {
+    overflow-x: auto;
+    overflow-y: auto;
+}
+
+.cb-pre {
+    margin: 0;
+    padding: 0.75rem 0;
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace;
+    font-size: 0.875rem;
+    line-height: 1.5;
+    background: transparent;
+    border: 0;
+}
+
+.cb-pre code {
+    display: block;
+    background: transparent;
+    padding: 0;
+    font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+/* Line Rows */
+.cb-line {
+    display: flex;
+    padding: 0 1rem 0 0;
+    min-height: 1.5rem;
+    transition: background-color 0.1s ease;
+}
+
+.cb-no-gutter .cb-line {
+    padding-left: 1rem;
+}
+
+.cb-lineno {
+    display: inline-block;
+    min-width: 3.25rem;
+    max-width: 3.25rem;
+    padding-right: 1rem;
+    text-align: right;
+    user-select: none;
+    -webkit-user-select: none;
+    opacity: 0.5;
+    flex-shrink: 0;
+}
+
+.cb-code-line {
+    flex-grow: 1;
+    white-space: pre;
+}
+
+/* Line wrap mode */
+.cb-wrap-code .cb-code-line {
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+/* Highlighted Line */
+.cb-line-highlighted {
+    background-color: var(--cb-line-hl, rgba(255, 255, 255, 0.08));
+    position: relative;
+}
+
+.cb-line-highlighted::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background-color: var(--cb-hl-bar, #58a6ff);
+}
+
+/* Theme: One Dark Pro (Default) */
+.cb-theme-one-dark-pro {
+    --cb-line-hl: rgba(255, 255, 255, 0.07);
+    --cb-hl-bar: #61afef;
+    background-color: #282c34;
+    color: #abb2bf;
+    border-color: #3e4451;
+}
+.cb-theme-one-dark-pro .cb-header {
+    background-color: #21252b;
+    color: #abb2bf;
+}
+.cb-theme-one-dark-pro .cb-copy-btn {
+    color: #abb2bf;
+}
+
+/* Theme: GitHub Dark */
+.cb-theme-github-dark {
+    --cb-line-hl: rgba(56, 139, 253, 0.15);
+    --cb-hl-bar: #58a6ff;
+    background-color: #0d1117;
+    color: #c9d1d9;
+    border-color: #30363d;
+}
+.cb-theme-github-dark .cb-header {
+    background-color: #161b22;
+    color: #c9d1d9;
+}
+.cb-theme-github-dark .cb-copy-btn {
+    color: #c9d1d9;
+}
+
+/* Theme: GitHub Light */
+.cb-theme-github-light {
+    --cb-line-hl: rgba(234, 238, 242, 0.9);
+    --cb-hl-bar: #0969da;
+    background-color: #ffffff;
+    color: #24292f;
+    border-color: #d0d7de;
+}
+.cb-theme-github-light .cb-header {
+    background-color: #f6f8fa;
+    color: #24292f;
+    border-bottom: 1px solid #d0d7de;
+}
+.cb-theme-github-light .cb-copy-btn {
+    background: #ffffff;
+    border: 1px solid #d0d7de;
+    color: #24292f;
+}
+.cb-theme-github-light .cb-copy-btn:hover {
+    background: #f3f4f6;
+}
+.cb-theme-github-light .cb-lang-badge {
+    background: #e1e4e8;
+    color: #24292f;
+}
+
+/* Theme: Dracula */
+.cb-theme-dracula {
+    --cb-line-hl: rgba(255, 255, 255, 0.08);
+    --cb-hl-bar: #bd93f9;
+    background-color: #282a36;
+    color: #f8f8f2;
+    border-color: #44475a;
+}
+.cb-theme-dracula .cb-header {
+    background-color: #21222c;
+    color: #f8f8f2;
+}
+.cb-theme-dracula .cb-copy-btn {
+    color: #f8f8f2;
+}
+
+/* Theme: Monokai */
+.cb-theme-monokai {
+    --cb-line-hl: rgba(255, 255, 255, 0.08);
+    --cb-hl-bar: #a6e22e;
+    background-color: #272822;
+    color: #f8f8f2;
+    border-color: #3e3d32;
+}
+.cb-theme-monokai .cb-header {
+    background-color: #1e1f1c;
+    color: #f8f8f2;
+}
+.cb-theme-monokai .cb-copy-btn {
+    color: #f8f8f2;
+}
+
+/* Theme: Nord */
+.cb-theme-nord {
+    --cb-line-hl: rgba(255, 255, 255, 0.07);
+    --cb-hl-bar: #88c0d0;
+    background-color: #2e3440;
+    color: #d8dee9;
+    border-color: #434c5e;
+}
+.cb-theme-nord .cb-header {
+    background-color: #242933;
+    color: #d8dee9;
+}
+.cb-theme-nord .cb-copy-btn {
+    color: #d8dee9;
+}
+
+/* Theme: Solarized Dark */
+.cb-theme-solarized-dark {
+    --cb-line-hl: rgba(255, 255, 255, 0.06);
+    --cb-hl-bar: #268bd2;
+    background-color: #002b36;
+    color: #839496;
+    border-color: #073642;
+}
+.cb-theme-solarized-dark .cb-header {
+    background-color: #073642;
+    color: #839496;
+}
+.cb-theme-solarized-dark .cb-copy-btn {
+    color: #839496;
+}
+
+/* Theme: Solarized Light */
+.cb-theme-solarized-light {
+    --cb-line-hl: rgba(0, 0, 0, 0.05);
+    --cb-hl-bar: #268bd2;
+    background-color: #fdf6e3;
+    color: #657b83;
+    border-color: #eee8d5;
+}
+.cb-theme-solarized-light .cb-header {
+    background-color: #eee8d5;
+    color: #657b83;
+    border-bottom: 1px solid #dcd7c4;
+}
+.cb-theme-solarized-light .cb-copy-btn {
+    background: #fdf6e3;
+    border: 1px solid #dcd7c4;
+    color: #657b83;
+}
+.cb-theme-solarized-light .cb-copy-btn:hover {
+    background: #e4decb;
+}
+
+/* Pygments Token Color Highlighting */
+.cb-card .c, .cb-card .c1, .cb-card .cm, .cb-card .cs { color: #7f848e; font-style: italic; }
+.cb-card .k, .cb-card .kd, .cb-card .kn, .cb-card .kp, .cb-card .kr { color: #e06c75; font-weight: 600; }
+.cb-card .s, .cb-card .s1, .cb-card .s2, .cb-card .sa, .cb-card .sb, .cb-card .sc { color: #98c379; }
+.cb-card .m, .cb-card .mb, .cb-card .mf, .cb-card .mh, .cb-card .mi, .cb-card .mo { color: #d19a66; }
+.cb-card .nf, .cb-card .na, .cb-card .nb, .cb-card .nc, .cb-card .nd { color: #61afef; }
+.cb-card .o, .cb-card .ow { color: #56b6c2; }
+.cb-card .nt, .cb-card .nn { color: #e5c07b; }
+.cb-card .nv, .cb-card .vi, .cb-card .vg, .cb-card .vc { color: #e06c75; }
+
+/* Light Theme overrides for tokens */
+.cb-theme-github-light .c, .cb-theme-github-light .c1, .cb-theme-github-light .cm { color: #6e7781; font-style: italic; }
+.cb-theme-github-light .k, .cb-theme-github-light .kd, .cb-theme-github-light .kn { color: #cf222e; }
+.cb-theme-github-light .s, .cb-theme-github-light .s1, .cb-theme-github-light .s2 { color: #0a3069; }
+.cb-theme-github-light .m, .cb-theme-github-light .mi, .cb-theme-github-light .mf { color: #0550ae; }
+.cb-theme-github-light .nf, .cb-theme-github-light .nc { color: #8250df; }
+.cb-theme-github-light .o { color: #0550ae; }
