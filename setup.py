@@ -1,5 +1,18 @@
 """
-Setup script for tutor-code-block (Tutor plugin & Open edX XBlock).
+# Copyright (C) 2024-present Open edX Community
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <https://www.gnu.org/licenses/>.
 """
 
 from pathlib import Path
@@ -15,6 +28,16 @@ setup(
     description="Tutor plugin and Open edX XBlock for interactive code blocks",
     long_description=long_description,
     long_description_content_type="text/markdown",
+    license="GPL-3.0-or-later",
+    classifiers=[
+        "Development Status :: 4 - Beta",
+        "Framework :: Django",
+        "Intended Audience :: Education",
+        "License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3.12",
+    ],
     packages=find_packages(),
     include_package_data=True,
     install_requires=[

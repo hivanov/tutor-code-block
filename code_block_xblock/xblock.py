@@ -1,3 +1,12 @@
+# Copyright (C) 2024-present Open edX Community
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 """
 CodeBlockXBlock: Open edX XBlock component for interactive, highlighted code snippets.
 Supports 500+ languages via data-driven Pygments registry and Pydantic v2 validation contracts.
@@ -278,7 +287,7 @@ class CodeBlockXBlock(XBlock):
         </div>
 
         <div class="cb-form-row">
-            <div class="cb-form-group cb-col">
+            <div class="cb-highlight-container cb-form-group cb-col">
                 <label for="cb-highlight-lines">Highlight Lines</label>
                 <input type="text" id="cb-highlight-lines" class="cb-input" value="{escaped_highlight}" placeholder="e.g. 2, 4-7, 10" />
                 <span class="cb-help">Comma-separated lines or ranges to emphasize</span>

@@ -1,3 +1,12 @@
+# Copyright (C) 2024-present Open edX Community
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 """
 Pydantic v2 data models, enums, and validators for Code Block XBlock.
 All data contracts are strictly typed with comprehensive field metadata and validation rules.
