@@ -388,29 +388,23 @@ class CodeBlockXBlock(XBlock):
             return response
 
     # OLX Serialization & Deserialization
-    def parse_xml(self, node: Any, runtime: Any, keys: Any, id_generator: Any) -> CodeBlockXBlock:
+    @classmethod
+    def parse_xml(cls, node: Any, runtime: Any, keys: Any, id_generator: Any = None) -> CodeBlockXBlock:
         """Parse XML when importing OLX courses."""
         block: CodeBlockXBlock = cast(
             CodeBlockXBlock,
-            runtime.construct_xblock_from_class(CodeBlockXBlock, keys),
+            runtime.construct_xblock_from_class(cls, keys),
         )
 
-        block.display_name = node.get("display_name", "Code Block")
-        block.title = node.get("title", "")
-        block.language = node.get("language", "python")
-        block.theme = node.get("theme", "one-dark-pro")
-        block.line_numbers = node.get("line_numbers", "true").lower() == "true"
-        block.line_number_start = int(node.get("line_number_start", "1"))
-        block.highlight_lines_raw = node.get("highlight_lines", "")
-        block.wrap_code = node.get("wrap_code", "false").lower() == "true"
-        block.show_copy_button = node.get("show_copy_button", "true").lower() == "true"
-        block.max_height_px = int(node.get("max_height_px", "0"))
+        for name, value in list(node.items()):
+            if name == "highlight_lines":
+                cls._set_field_if_present(block, "highlight_lines_raw", value, {})
+            else:
+                cls._set_field_if_present(block, name, value, {})
 
         # Node text contains the raw code
-        if node.text:
-            block.raw_code = node.text
-        else:
-            block.raw_code = ""
+        if node.text and node.text.strip():
+            cls._set_field_if_present(block, "raw_code", node.text.strip(), {})
 
         return block
 

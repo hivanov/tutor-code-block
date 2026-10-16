@@ -234,7 +234,7 @@ def render_code_html(settings: CodeBlockSettings) -> str:
             f"</div>"
         )
 
-    return "\n".join(formatted_lines)
+    return "".join(formatted_lines)
 
 
 def build_student_view_context(settings: CodeBlockSettings) -> StudentViewContext:

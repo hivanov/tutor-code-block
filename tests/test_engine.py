@@ -1,3 +1,12 @@
+# Copyright (C) 2024-present Open edX Community
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# SPDX-License-Identifier: GPL-3.0-or-later
+
 """
 Tests for syntax highlighting engine and HTML rendering.
 """
@@ -68,7 +77,7 @@ def test_line_highlighting_rendering():
     )
     html_output = render_code_html(settings)
 
-    lines = html_output.splitlines()
+    lines = [line_div for line_div in html_output.split("</div>") if '<div class="cb-line' in line_div]
     assert len(lines) == 5
 
     # Line 1: normal

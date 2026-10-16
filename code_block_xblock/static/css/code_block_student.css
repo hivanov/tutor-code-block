@@ -106,6 +106,7 @@
     line-height: 1.5;
     background: transparent;
     border: 0;
+    white-space: normal;
 }
 
 .cb-pre code {
@@ -115,6 +116,7 @@
     font-family: inherit;
     font-size: inherit;
     color: inherit;
+    white-space: normal;
 }
 
 /* Line Rows */
